@@ -29,7 +29,7 @@
 ![Docker](https://img.shields.io/badge/-Docker-FCC624?style=flat-square&logo=docker)
 ![Shell Script](https://img.shields.io/badge/shell_script-%4285F4.svg?style=style=flat-square&logo=gnu-bash&logoColor=white)
 
-<!-- GitHub 提交评率 -->
+<!-- GitHub 提交频率图 -->
 <table align="center">
   <tr>
     <td colspan="2">
@@ -38,6 +38,15 @@
   </tr>
 </table>
 
+<!-- GitHub数据统计 -->
+<div align="center">
+  <img height="137px" src="https://github-readme-stats.vercel.app/api?username=iamzjt-front-end&theme=dark&show_icons=true" />
+  <img height="137px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=iamzjt-front-end&layout=compact&hide=html&theme=dark" />
+</div>
+<br>
+
+
+# 🚀 Open source projects:
 <!-- 比较好的开源项目卡片 -->
 <div align="center">
 <a href="https://github.com/iamzjt-front-end/Awesome-Love-Code">
@@ -45,13 +54,3 @@
 <a href="https://github.com/iamzjt-front-end/Student-Data-Vision">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=iamzjt-front-end&repo=Student-Data-Vision&theme=dark&bg_color=0d1117&hide_border=true" /></a>
 </div>
-
-
-# 🚀 Data statistics:
-
-<!-- GitHub数据统计 -->
-<div align="center">
-  <img height="137px" src="https://github-readme-stats.vercel.app/api?username=iamzjt-front-end&theme=dark&show_icons=true" />
-  <img height="137px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=iamzjt-front-end&layout=compact&hide=html&theme=dark" />
-</div>
-<br>
