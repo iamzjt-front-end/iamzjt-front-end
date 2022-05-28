@@ -63,7 +63,6 @@
 <div align="center">
   <img height="137px" src="https://github-readme-stats.vercel.app/api?username=iamzjt-front-end&theme=dark&show_icons=true" />
   <img height="137px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=iamzjt-front-end&layout=compact&hide=html&theme=dark" />
-  <img height="137px" src="https://github-readme-streak-stats.herokuapp.com/?user=iamzjt-front-end&theme=highcontrast" />
 </div>
 <br>
 
