@@ -74,21 +74,6 @@
 
 # 🚀 Actions
 
-<!-- 连续提交代码天数记录 -->
-<div align="center">
-  <img width="150" src="https://cdn.jsdelivr.net/gh/iamzjt-front-end/photos/images/202108300310676.png" />
-  <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=iamzjt-front-end&theme=dark&hide_border=true" />
-  <img width="150" src="https://cdn.jsdelivr.net/gh/iamzjt-front-end/photos/images/202108300312623.png" />
-</div>
-<br>
-
-<!-- metrics 基础资料 -->
-<div align="center"><img src="https://cdn.jsdelivr.net/gh/iamzjt-front-end/iamzjt-front-end/base_metrics.svg" alt="base metrics"/></div>
-<br>
-
-<!-- Dynamic Quotes -->
-<div align="center"><img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark"></div>
-
 <!-- GitHub数据统计 -->
 <div align="center">
   <img height="137px" src="https://github-readme-stats.vercel.app/api?username=iamzjt-front-end&theme=dark&show_icons=true" />
