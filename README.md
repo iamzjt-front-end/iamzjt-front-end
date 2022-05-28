@@ -9,24 +9,11 @@
 <div align="center">
   <a href="https://sunguoqi.com/"><img src="https://img.shields.io/badge/website-%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99-blue"></a>&emsp;
   <a href="https://space.bilibili.com/448488855/"><img src="https://img.shields.io/badge/bilibili-B%E7%AB%99-ff69b4"></a>&emsp;
-<!-- 访客数统计徽标 -->
+  <!-- 访客数统计徽标 -->
   <img src="https://visitor-badge.glitch.me/badge?page_id=iamzjt-front-end" alt="访客统计" /></div>
 </div>
 
-<!-- 贪吃蛇代码贡献图 -->
-<div align="center"><img src="https://cdn.jsdelivr.net/gh/iamzjt-front-end/iamzjt-front-end/contribution-snake/github-contribution-grid-snake.svg" /></div>
-
-<!-- 比较好的开源项目卡片 -->
-<div align="center">
-<a href="https://github.com/iamzjt-front-end/Awesome-Love-Code">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=iamzjt-front-end&repo=Awesome-Love-Code&theme=dark&bg_color=0d1117&hide_border=true" /></a>
-<a href="https://github.com/iamzjt-front-end/Student-Data-Vision">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=iamzjt-front-end&repo=Student-Data-Vision&theme=dark&bg_color=0d1117&hide_border=true" /></a>
-</div>
-
-# 💪 Technology stack: 
-
-&emsp;&emsp;
+<!-- 技术栈 -->
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=flat-square&logo=c&logoColor=white)
 ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=flat-square&logo=c-sharp&logoColor=white)
 ![Python](https://img.shields.io/badge/-Python-pink?style=flat-square&logo=Python)
@@ -42,16 +29,7 @@
 ![Docker](https://img.shields.io/badge/-Docker-FCC624?style=flat-square&logo=docker)
 ![Shell Script](https://img.shields.io/badge/shell_script-%4285F4.svg?style=style=flat-square&logo=gnu-bash&logoColor=white)
 
-# 🚀 Actions
-
-<!-- GitHub数据统计 -->
-<div align="center">
-  <img height="137px" src="https://github-readme-stats.vercel.app/api?username=iamzjt-front-end&theme=dark&show_icons=true" />
-  <img height="137px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=iamzjt-front-end&layout=compact&hide=html&theme=dark" />
-</div>
-<br>
-
-<!-- GitHub Activity Graph -->
+<!-- GitHub 提交评率 -->
 <table align="center">
   <tr>
     <td colspan="2">
@@ -59,3 +37,21 @@
     </td>
   </tr>
 </table>
+
+<!-- 比较好的开源项目卡片 -->
+<div align="center">
+<a href="https://github.com/iamzjt-front-end/Awesome-Love-Code">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=iamzjt-front-end&repo=Awesome-Love-Code&theme=dark&bg_color=0d1117&hide_border=true" /></a>
+<a href="https://github.com/iamzjt-front-end/Student-Data-Vision">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=iamzjt-front-end&repo=Student-Data-Vision&theme=dark&bg_color=0d1117&hide_border=true" /></a>
+</div>
+
+
+# 🚀 Data statistics:
+
+<!-- GitHub数据统计 -->
+<div align="center">
+  <img height="137px" src="https://github-readme-stats.vercel.app/api?username=iamzjt-front-end&theme=dark&show_icons=true" />
+  <img height="137px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=iamzjt-front-end&layout=compact&hide=html&theme=dark" />
+</div>
+<br>
