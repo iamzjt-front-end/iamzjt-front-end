@@ -91,15 +91,9 @@
 
 <!-- GitHub数据统计 -->
 <div align="center">
-  // github - stats
   <img height="137px" src="https://github-readme-stats.vercel.app/api?username=iamzjt-front-end&theme=dark&show_icons=true" />
-  // most - used-language
   <img height="137px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=iamzjt-front-end&layout=compact&hide=html&theme=dark" />
-  // total - contribution
   <img height="137px" src="https://github-readme-streak-stats.herokuapp.com/?user=iamzjt-front-end&theme=highcontrast" />
- 
-  <img height="137px" src="https://github-readme-stats.vercel.app/api?username=sun0225SUN&hide_title=true&hide_border=true&show_icons=trueline_height=21&text_color=000&icon_color=000&bg_color=0,ea6161,ffc64d,fffc4d,52fa5a&theme=graywhite" />
-  <img height="137px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sun0225SUN&hide_title=true&hide_border=true&layout=compact&langs_count=6&text_color=000&icon_color=fff&bg_color=0,52fa5a,4dfcff,c64dff&theme=graywhite" />
 </div>
 <br>
 
