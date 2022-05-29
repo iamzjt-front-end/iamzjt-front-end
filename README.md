@@ -5,8 +5,7 @@
 <p>&emsp;&emsp;果能此道也，虽愚必明，虽柔必强。</p>
 <br>
 
-#  ☎️ Contact information
-<div align="center">
+<div align="left">
   <a href="#">
     <img src="https://img.shields.io/badge/blog-博客-437CBB">
   </a>&emsp;
