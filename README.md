@@ -1,9 +1,9 @@
-#  🙋 Hello
+#  🙋 Hello，I'm IamZJT!
 
-<p>✍️&nbsp;&nbsp;大家好，我是小孙同学! 目前就读于安徽理工大学地理信息科学专业，热爱计算机科学和IT互联网事业，励志成为一名资深程序员!</p>
+<p>✍️&nbsp;&nbsp;大家好，我是zjt! 是一名前端开发工程师!</p>
 <p>&emsp;&emsp;We're making the world a better place. Through constructing elegant hierarchies for maximum code reuse and extensibility.</p>
-<p>&emsp;&emsp;我们正在让这个世界变得更加美好，通过代码的重复使用和延展构建完美体系。</p>
-<p>&emsp;&emsp;我开始的太晚了，但总归不算太迟。春华秋实，努力一定会有收获，一枚学渣正在悄悄蜕变。。。</p>
+<p>&emsp;&emsp;人一能之，己百之；人十能之，己千之。</p>
+<p>&emsp;&emsp;果能此道也，虽愚必明，虽柔必强。</p>
 <br>
 
 #  ☎️ Contact information
@@ -34,7 +34,7 @@
 ![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=style=flat-square&logo=jquery&logoColor=white)
 ![Docker](https://img.shields.io/badge/-Docker-FCC624?style=flat-square&logo=docker)
 ![Shell Script](https://img.shields.io/badge/shell_script-%4285F4.svg?style=style=flat-square&logo=gnu-bash&logoColor=white)
-<br>
+<br><br><br>
 
 #  📈 Github Statistics
 <!-- GitHub 提交频率图 -->
