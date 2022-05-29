@@ -49,7 +49,7 @@
 <br>
 
 
-# 🚀 Open source projects:
+# 🚀 Open Source Projects
 <!-- 比较好的开源项目卡片 -->
 <div align="center">
 <a href="https://github.com/iamzjt-front-end/Awesome-Love-Code">
