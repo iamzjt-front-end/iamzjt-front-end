@@ -1,7 +1,6 @@
 #  🙋 Hello，I'm IamZJT!
 
-<p>✍️&nbsp;&nbsp;大家好，我是zjt! 是一名前端开发工程师!</p>
-<p>&emsp;&emsp;We're making the world a better place. Through constructing elegant hierarchies for maximum code reuse and extensibility.</p>
+<p>✍️&nbsp;&nbsp;一名菜鸟前端开发工程师!</p>
 <p>&emsp;&emsp;人一能之，己百之；人十能之，己千之。</p>
 <p>&emsp;&emsp;果能此道也，虽愚必明，虽柔必强。</p>
 <br>
