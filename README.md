@@ -7,10 +7,16 @@
 
 #  ☎️ Contact information
 <div align="center">
-  <a href="https://sunguoqi.com/">
-    <img src="https://img.shields.io/badge/website-%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99-blue">
+  <a href="#">
+    <img src="https://img.shields.io/badge/blog-博客-437CBB">
   </a>&emsp;
-  <a href="https://space.bilibili.com/448488855/">
+  <a href="https://juejin.cn/user/958429872532632">
+    <img src="https://img.shields.io/badge/juejin-掘金-487DF8">
+  </a>&emsp;
+  <a href="https://www.zhihu.com/people/zhu-jin-tao-75-93">
+    <img src="https://img.shields.io/badge/zhihu-知乎-3963F7">
+  </a>&emsp;
+  <a href="https://space.bilibili.com/7834510?spm_id_from=333.1007.0.0">
     <img src="https://img.shields.io/badge/bilibili-B%E7%AB%99-ff69b4">
   </a>&emsp;
   <!-- 访客数统计徽标 -->
