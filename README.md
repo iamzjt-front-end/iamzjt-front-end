@@ -17,6 +17,9 @@
   <img src="https://visitor-badge.glitch.me/badge?page_id=iamzjt-front-end" alt="访客统计" />
 </div>
 
+<hr/>
+
+# 📚 Technology Stack
 <!-- 技术栈 -->
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=flat-square&logo=c&logoColor=white)
 ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=flat-square&logo=c-sharp&logoColor=white)
@@ -50,7 +53,7 @@
 <br>
 
 
-# 🚀 Open source projects:
+# 🚀 Open Source Projects
 <!-- 比较好的开源项目卡片 -->
 <div align="center">
 <a href="https://github.com/iamzjt-front-end/Awesome-Love-Code">
