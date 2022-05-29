@@ -2,10 +2,11 @@
 
 <p>✍️&nbsp;&nbsp;一名菜鸟前端开发工程师!</p>
 <p>&emsp;&emsp;人一能之，己百之；人十能之，己千之。</p>
-<p>&emsp;&emsp;果能此道也，虽愚必明，虽柔必强。</p>
+<p>&emsp;&emsp;果能此道也，虽愚必明，虽柔必强。</p
 <br>
 
 <div align="left">
+  &emsp;&emsp;
   <a href="#">
     <img src="https://img.shields.io/badge/blog-博客-437CBB">
   </a>&emsp;
@@ -31,7 +32,7 @@
 ![Nodejs](https://img.shields.io/badge/-Nodejs-c0ebd?style=flat-square&logo=Node.js)
 ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=flat-square&logo=mysql&logoColor=white)
 ![Docker](https://img.shields.io/badge/-Docker-FCC624?style=flat-square&logo=docker)
-<br><br><br>
+<br><br>
 
 #  📈 Github Statistics
 <!-- GitHub 提交频率图 -->
