@@ -4,8 +4,9 @@
 <p>&emsp;&emsp;We're making the world a better place. Through constructing elegant hierarchies for maximum code reuse and extensibility.</p>
 <p>&emsp;&emsp;我们正在让这个世界变得更加美好，通过代码的重复使用和延展构建完美体系。</p>
 <p>&emsp;&emsp;我开始的太晚了，但总归不算太迟。春华秋实，努力一定会有收获，一枚学渣正在悄悄蜕变。。。</p>
+<br>
 
-<!-- 个人资料徽标 -->
+#  ☎️ Contact information
 <div align="center">
   <a href="https://sunguoqi.com/">
     <img src="https://img.shields.io/badge/website-%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99-blue">
@@ -16,11 +17,9 @@
   <!-- 访客数统计徽标 -->
   <img src="https://visitor-badge.glitch.me/badge?page_id=iamzjt-front-end" alt="访客统计" />
 </div>
+<br>
 
-<hr/>
-
-# 📚 Technology Stack
-<!-- 技术栈 -->
+#  📚 Technology Stack
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=flat-square&logo=c&logoColor=white)
 ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=flat-square&logo=c-sharp&logoColor=white)
 ![Python](https://img.shields.io/badge/-Python-pink?style=flat-square&logo=Python)
@@ -36,14 +35,11 @@
 ![Docker](https://img.shields.io/badge/-Docker-FCC624?style=flat-square&logo=docker)
 ![Shell Script](https://img.shields.io/badge/shell_script-%4285F4.svg?style=style=flat-square&logo=gnu-bash&logoColor=white)
 
+#  📈 Github Statistics
 <!-- GitHub 提交频率图 -->
-<table align="center">
-  <tr>
-    <td colspan="2">
-      <img src="https://activity-graph.herokuapp.com/graph?username=iamzjt-front-end&theme=xcode&bg_color=FF000000&hide_border=true" />
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <img src="https://activity-graph.herokuapp.com/graph?username=iamzjt-front-end&theme=xcode&bg_color=FF000000&hide_border=true" />
+</div>
 
 <!-- GitHub数据统计 -->
 <div align="center">
@@ -53,7 +49,7 @@
 <br>
 
 
-# 🚀 Open Source Projects
+#  🚀 Open Source Projects
 <!-- 比较好的开源项目卡片 -->
 <div align="center">
 <a href="https://github.com/iamzjt-front-end/Awesome-Love-Code">
