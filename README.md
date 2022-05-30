@@ -62,6 +62,6 @@
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=iamzjt-front-end&repo=cloud-music-parody&theme=dark&bg_color=0d1117&hide_border=true" />
   </a>
   <a href="https://github.com/iamzjt-front-end/iamzjt-front-end">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=iamzjt-front-end&repo=iamzjt-front-end&theme=dark&bg_color=0d1117&hide_border=true" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=iamzjt-front-end&repo=coderhub&theme=dark&bg_color=0d1117&hide_border=true" />
   </a>
 </div>
