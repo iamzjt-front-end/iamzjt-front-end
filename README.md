@@ -20,7 +20,7 @@
     <img src="https://img.shields.io/badge/bilibili-B%E7%AB%99-ff69b4">
   </a>&emsp;
   <!-- 访客统计 -->
-  <img src="https://komarev.com/ghpvc/?username=iamzjt-front-end&color=lightgrey" alt="访客统计" />
+  <img src="https://komarev.com/ghpvc/?username=iamzjt-front-end&label=访客&color=lightgrey" alt="访客统计" />
 </div>
 <br>
 
