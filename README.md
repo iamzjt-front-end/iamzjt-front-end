@@ -19,8 +19,6 @@
   <a href="https://space.bilibili.com/7834510?spm_id_from=333.1007.0.0">
     <img src="https://img.shields.io/badge/bilibili-B%E7%AB%99-ff69b4">
   </a>&emsp;
-  <!-- 访客数统计徽标 -->
-  [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=iamzjt-front-end)](https://github.com/anuraghazra/github-readme-stats)
 </div>
 <br>
 
