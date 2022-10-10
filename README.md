@@ -19,6 +19,8 @@
   <a href="https://space.bilibili.com/7834510?spm_id_from=333.1007.0.0">
     <img src="https://img.shields.io/badge/bilibili-B%E7%AB%99-ff69b4">
   </a>&emsp;
+  <!-- 访客统计 -->
+  <img src="https://komarev.com/ghpvc/?username=iamzjt-front-end&color=green" alt="访客统计" />
 </div>
 <br>
 
