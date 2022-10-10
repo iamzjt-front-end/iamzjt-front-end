@@ -20,7 +20,6 @@
     <img src="https://img.shields.io/badge/bilibili-B%E7%AB%99-ff69b4">
   </a>&emsp;
   <!-- 访客数统计徽标 -->
-  <img src="https://s11.flagcounter.com/map/PFvt/size_s/txt_000000/border_CCCCCC/pageviews_0/viewers_0/flags_0/" alt="访客统计" border="0">
   <img src="https://visitor-badge.glitch.me/badge?page_id=iamzjt-front-end" alt="访客统计" />
 </div>
 <br>
