@@ -16,9 +16,9 @@
   <a href="https://www.zhihu.com/people/zhu-jin-tao-75-93">
     <img src="https://img.shields.io/badge/zhihu-知乎-3963F7">
   </a>&emsp;
-  <a href="https://space.bilibili.com/7834510?spm_id_from=333.1007.0.0">
+<!-- <a href="https://space.bilibili.com/7834510?spm_id_from=333.1007.0.0">
     <img src="https://img.shields.io/badge/bilibili-B%E7%AB%99-ff69b4">
-  </a>&emsp;
+  </a>&emsp; -->
   <!-- 访客统计 -->
   <img src="https://komarev.com/ghpvc/?username=iamzjt-front-end&label=++访客统计++&color=lightgrey" alt="访客统计" />
 </div>
