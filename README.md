@@ -1,11 +1,9 @@
+#  🙋 Hello，I'm IamZJT!
 <h1 align="center">
   <a href="https://sunguoqi.com/">
     <img src="https://readme-typing-svg.herokuapp.com/?lines=console.log(%22Hello%2C%20World!%22);祝您今天愉快!&center=true&size=27">
   </a>
 </h1>
-
-#  🙋 Hello，I'm IamZJT!
-
 <p>✍️&nbsp;&nbsp;一名菜鸟前端开发工程师!</p>
 <p>&emsp;&emsp;人一能之，己百之；人十能之，己千之。</p>
 <p>&emsp;&emsp;果能此道也，虽愚必明，虽柔必强。</p
