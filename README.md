@@ -1,3 +1,6 @@
+<!-- 贪吃蛇代码贡献图 -->
+<div align="center"><img src="https://cdn.jsdelivr.net/gh/iamzjt-front-end/iamzjt-front-end/contribution-snake/github-contribution-grid-snake.svg" /></div>
+
 #  🙋 Hello，I'm IamZJT!
 
 <p>✍️&nbsp;&nbsp;一名菜鸟前端开发工程师!</p>
