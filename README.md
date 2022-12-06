@@ -44,7 +44,7 @@
 #  📈 Github Statistics
 <!-- GitHub 提交频率图 -->
 <div align="center">
-  <img src="https://github-readme-activity-graph.cyclic.app/graph?username=iamzjt-front-end&bg_color=transparent&color=708090&line=eb98b8&point=eb98b8&area=true&hide_border=true" />
+  <img src="https://github-readme-activity-graph.cyclic.app/graph?username=iamzjt-front-end&bg_color=transparent&color=708090&line=d68caf&point=d68caf&area=true&hide_border=true" />
 </div>
 
 <!-- GitHub数据统计 -->
