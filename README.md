@@ -5,7 +5,7 @@
 
 <p>✍️&nbsp;&nbsp;一名菜鸟前端开发工程师!</p>
 <p>&emsp;&emsp;人一能之，己百之；人十能之，己千之。</p>
-<p>&emsp;&emsp;果能此道也，虽愚必明，虽柔必强。</p
+<p>&emsp;&emsp;果能此道也，虽愚必明，虽柔必强。</p>
 <br>
 
 <div align="left">
@@ -53,11 +53,11 @@
 <!-- GitHub数据统计 -->
 <!-- profile-3d-contrib -->
 <div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/iamzjt-front-end/iamzjt-front-end/profile-3d-contrib/profile-night-rainbow.svg" width="100%"/>
+  <img src="https://cdn.jsdelivr.net/gh/iamzjt-front-end/iamzjt-front-end/profile-3d-contrib/profile-season.svg" width="100%"/>
 </div>
 
 <div align="center">
-  <img width="49%" height="140px" src="https://github-readme-stats.vercel.app/api?username=iamzjt-front-end&theme=light&show_icons=true" />
-  <img width="49%" height="140px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=iamzjt-front-end&layout=compact&hide=html&theme=light" />
+  <img width="54%" src="https://github-readme-stats.vercel.app/api?username=iamzjt-front-end&theme=light&show_icons=true" />
+  <img width="45%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=iamzjt-front-end&layout=compact&hide=html&theme=light" />
 </div>
 <br>
