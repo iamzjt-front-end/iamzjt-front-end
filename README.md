@@ -1,9 +1,5 @@
 #  🙋 Hello，I'm IamZJT!
-<h1 align="center">
-  <a href="https://juejin.cn/user/958429872532632">
-    <img src="https://readme-typing-svg.herokuapp.com/?lines=console.log(Hello，I'm IamZJT!);一名菜鸟前端开发工程师!&center=true&size=26">
-  </a>
-</h1>
+
 <p>✍️&nbsp;&nbsp;一名菜鸟前端开发工程师!</p>
 <p>&emsp;&emsp;人一能之，己百之；人十能之，己千之。</p>
 <p>&emsp;&emsp;果能此道也，虽愚必明，虽柔必强。</p
@@ -48,7 +44,7 @@
 #  📈 Github Statistics
 <!-- GitHub 提交频率图 -->
 <div align="center">
-  <img src="https://activity-graph.herokuapp.com/graph?username=iamzjt-front-end&theme=xcode&bg_color=FF000000&hide_border=true" />
+  <img src="https://github-readme-activity-graph.cyclic.app/graph?username=iamzjt-front-end&bg_color=fffff0&color=708090&line=24292e&point=24292e&area=true&hide_border=true" />
 </div>
 
 <!-- GitHub数据统计 -->
