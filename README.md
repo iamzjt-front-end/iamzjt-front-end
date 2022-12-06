@@ -1,7 +1,7 @@
 #  🙋 Hello，I'm IamZJT!
 <h1 align="center">
-  <a href="https://sunguoqi.com/">
-    <img src="https://readme-typing-svg.herokuapp.com/?lines=console.log(%22Hello%2C%20World!%22);祝您今天愉快!&center=true&size=27">
+  <a href="https://juejin.cn/user/958429872532632">
+    <img src="https://readme-typing-svg.herokuapp.com/?lines=console.log(Hello，I'm IamZJT!);一名菜鸟前端开发工程师!&center=true&size=26">
   </a>
 </h1>
 <p>✍️&nbsp;&nbsp;一名菜鸟前端开发工程师!</p>
