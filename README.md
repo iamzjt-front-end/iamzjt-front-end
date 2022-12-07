@@ -1,6 +1,3 @@
-<!-- 贪吃蛇代码贡献图 -->
-<div align="center"><img src="https://cdn.jsdelivr.net/gh/iamzjt-front-end/iamzjt-front-end/contribution-snake/github-contribution-grid-snake.svg" /></div>
-
 #  🙋 Hello，I'm IamZJT!
 
 <p>✍️&nbsp;&nbsp;一名菜鸟前端开发工程师!</p>
@@ -45,6 +42,11 @@
 <br><br>
 
 #  📈 Github Statistics
+<!-- 贪吃蛇代码贡献图 -->
+<div align="center">
+  <img src="https://github.com/iamzjt-front-end/iamzjt-front-end/blob/main/contribution-snake/github-contribution-grid-snake.svg"/>
+</div>
+
 <!-- GitHub 提交频率图 -->
 <div align="center">
   <img src="https://github-readme-activity-graph.cyclic.app/graph?username=iamzjt-front-end&bg_color=transparent&color=708090&line=d68caf&point=d68caf&area=true&hide_border=true" />
@@ -53,11 +55,11 @@
 <!-- GitHub数据统计 -->
 <!-- profile-3d-contrib -->
 <div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/iamzjt-front-end/iamzjt-front-end/profile-3d-contrib/profile-season.svg" width="100%"/>
+  <img src="https://github.com/iamzjt-front-end/iamzjt-front-end/blob/main/profile-3d-contrib/profile-night-rainbow.svg" width="100%"/>
 </div>
 
 <div align="center">
-  <img width="54%" src="https://github-readme-stats.vercel.app/api?username=iamzjt-front-end&theme=light&show_icons=true" />
-  <img width="45%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=iamzjt-front-end&layout=compact&hide=html&theme=light" />
+  <img width="54%" src="https://github-readme-stats.vercel.app/api?username=iamzjt-front-end&show_icons=true&theme=dark" />
+  <img width="45%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=iamzjt-front-end&layout=compact&hide=html&theme=dark" />
 </div>
 <br>
