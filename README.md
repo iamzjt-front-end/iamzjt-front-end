@@ -59,7 +59,7 @@
 </div>
 
 <div align="center">
-  <img height="236px" src="https://github-readme-stats.vercel.app/api?username=iamzjt-front-end&show_icons=true&theme=dark&locale=cn" />
-  <img height="236px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=iamzjt-front-end&layout=compact&hide=html&theme=dark&locale=cn" />
+  <img width="56%" src="https://github-readme-stats.vercel.app/api?username=iamzjt-front-end&show_icons=true&theme=dark&locale=cn" />
+  <img width="43%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=iamzjt-front-end&layout=compact&hide=html&theme=dark&locale=cn" />
 </div>
 <br>
