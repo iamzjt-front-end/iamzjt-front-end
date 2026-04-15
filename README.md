@@ -39,19 +39,9 @@
   <img src="https://github.com/iamzjt-front-end/iamzjt-front-end/blob/snake/github-contribution-grid-snake.svg"/>
 </div>
 
-<!-- GitHub 提交频率图 -->
-<div align="center">
-  <img src="https://github-readme-activity-graph.cyclic.app/graph?username=iamzjt-front-end&bg_color=transparent&color=708090&line=d68caf&point=d68caf&area=true&hide_border=true" />
-</div>
-
 <!-- GitHub数据统计 -->
 <!-- profile-3d-contrib -->
 <div align="center">
   <img src="https://github.com/iamzjt-front-end/iamzjt-front-end/blob/main/profile-3d-contrib/profile-night-rainbow.svg" width="100%"/>
-</div>
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=iamzjt-front-end&show_icons=true&theme=dark&locale=cn" width="56.2%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=iamzjt-front-end&layout=compact&hide=html&theme=dark&locale=cn" width="42.8%" />
 </div>
 <br>
