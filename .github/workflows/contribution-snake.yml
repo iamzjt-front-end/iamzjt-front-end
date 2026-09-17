@@ -1,4 +1,4 @@
-name: Generate-Snake
+name: Update contribution snake
 
 "on":
   schedule:
@@ -7,14 +7,14 @@ name: Generate-Snake
   push:
     branches: [main]
     paths:
-      - .github/workflows/GenerateSnake.yml
+      - .github/workflows/contribution-snake.yml
       - scripts/style-snake.py
 
 permissions:
   contents: write
 
 concurrency:
-  group: profile-snake
+  group: profile-snake-v3
   cancel-in-progress: false
 
 jobs:
