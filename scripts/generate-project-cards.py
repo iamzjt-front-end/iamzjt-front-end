@@ -12,12 +12,10 @@ from xml.sax.saxutils import escape
 import xml.etree.ElementTree as ET
 
 PROJECTS = [
+    ("llmops", "LLM 应用与工具插件平台，持续构建中。", ["LLM 应用与工具插件平台，", "持续构建中。"], "Python · LLM"),
     ("git-workflow", "AI 提交与代码审查，让 Git 工作流更顺畅。", ["AI 提交与代码审查，", "让 Git 工作流更顺畅。"], "TypeScript · CLI"),
     ("codex-bar", "在菜单栏掌握 Codex 任务、额度与用量。", ["在菜单栏掌握 Codex", "任务、额度与用量。"], "Swift · macOS"),
-    ("llmops", "LLM 应用与工具插件平台，持续构建中。", ["LLM 应用与工具插件平台，", "持续构建中。"], "Python · LLM"),
     ("code-review-mpx", "面向 Mpx 小程序的代码审查 Skill。", ["面向 Mpx 小程序的", "代码审查 Skill。"], "Agent Skill"),
-    ("fund-pulse", "在菜单栏查看基金持仓、估值与收益。", ["在菜单栏查看基金持仓、", "估值与收益。"], "Swift · macOS"),
-    ("Tide", "本地番茄钟与专注统计，记录工作节奏。", ["本地番茄钟与专注统计，", "记录工作节奏。"], "Swift · macOS"),
 ]
 
 

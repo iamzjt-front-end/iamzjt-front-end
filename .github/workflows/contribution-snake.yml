@@ -80,7 +80,7 @@ jobs:
         run: |
           cp source/dist/github-contribution-grid-snake.svg source/dist/github-contribution-grid-snake-dark.svg source/dist/github-contribution-snake.json snake-output/
           mkdir -p snake-output/project-cards
-          cp source/dist/project-cards/* snake-output/project-cards/
+          rsync -a --delete source/dist/project-cards/ snake-output/project-cards/
           cd snake-output
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
