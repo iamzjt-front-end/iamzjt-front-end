@@ -11,14 +11,15 @@
 
 ## Selected Projects
 
-| Project | Description |
-| :--- | :--- |
-| **[git-workflow](https://github.com/j-tide/git-workflow)** | AI 提交与代码审查，简化 Git 工作流。 |
-| **[codex-bar](https://github.com/j-tide/codex-bar)** | Codex 菜单栏助手，掌握任务、额度与用量。 |
-| [llmops](https://github.com/j-tide/llmops) | LLM 应用与工具插件平台（构建中）。 |
-| [code-review-mpx](https://github.com/j-tide/code-review-mpx) | 面向 Mpx 小程序的代码审查 Skill。 |
-| [fund-pulse](https://github.com/j-tide/fund-pulse) | macOS 基金持仓、估值与收益管理。 |
-| [Tide](https://github.com/j-tide/Tide) | 本地番茄钟、专注计时与时间统计。 |
+<!-- Project cards and real star counts refresh with the daily profile workflow. -->
+<p>
+  <a href="https://github.com/j-tide/git-workflow"><picture><source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/j-tide/j-tide/snake/project-cards/git-workflow-mobile.svg" /><img src="https://raw.githubusercontent.com/j-tide/j-tide/snake/project-cards/git-workflow.svg" width="410" alt="git-workflow — 查看项目与 Star 数量" /></picture></a>
+  <a href="https://github.com/j-tide/codex-bar"><picture><source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/j-tide/j-tide/snake/project-cards/codex-bar-mobile.svg" /><img src="https://raw.githubusercontent.com/j-tide/j-tide/snake/project-cards/codex-bar.svg" width="410" alt="codex-bar — 查看项目与 Star 数量" /></picture></a>
+  <a href="https://github.com/j-tide/llmops"><picture><source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/j-tide/j-tide/snake/project-cards/llmops-mobile.svg" /><img src="https://raw.githubusercontent.com/j-tide/j-tide/snake/project-cards/llmops.svg" width="410" alt="llmops — 查看项目与 Star 数量" /></picture></a>
+  <a href="https://github.com/j-tide/code-review-mpx"><picture><source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/j-tide/j-tide/snake/project-cards/code-review-mpx-mobile.svg" /><img src="https://raw.githubusercontent.com/j-tide/j-tide/snake/project-cards/code-review-mpx.svg" width="410" alt="code-review-mpx — 查看项目与 Star 数量" /></picture></a>
+  <a href="https://github.com/j-tide/fund-pulse"><picture><source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/j-tide/j-tide/snake/project-cards/fund-pulse-mobile.svg" /><img src="https://raw.githubusercontent.com/j-tide/j-tide/snake/project-cards/fund-pulse.svg" width="410" alt="fund-pulse — 查看项目与 Star 数量" /></picture></a>
+  <a href="https://github.com/j-tide/Tide"><picture><source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/j-tide/j-tide/snake/project-cards/Tide-mobile.svg" /><img src="https://raw.githubusercontent.com/j-tide/j-tide/snake/project-cards/Tide.svg" width="410" alt="Tide — 查看项目与 Star 数量" /></picture></a>
+</p>
 
 [查看全部项目 ↗](https://github.com/j-tide?tab=repositories)
 
