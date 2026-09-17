@@ -7,25 +7,18 @@
   </picture>
 </p>
 
-**AI Agent 开发工程师**
-
-<a href="https://juejin.cn/user/958429872532632/posts?sort=newest" title="阅读我的掘金技术文章">
-  <img src="assets/juejin-writing.svg" alt="掘金技术文章，点击阅读 ↗" width="180" height="28" />
-</a>
+**AI Agent 开发工程师** · [在掘金写技术文章 ↗](https://juejin.cn/user/958429872532632/posts?sort=newest)
 
 ## Selected Projects
 
-**AI & Developer Tools**
-
-- **[git-workflow ↗](https://github.com/j-tide/git-workflow)** — 集成 AI 提交与代码审查的 Git 工作流 CLI。
-- **[code-review-mpx ↗](https://github.com/j-tide/code-review-mpx)** — 面向 Mpx 小程序的代码审查 Skill。
-- **[llmops ↗](https://github.com/j-tide/llmops)** — LLM 应用与工具插件开发平台，持续构建中。
-
-**macOS Apps**
-
-- **[codex-bar ↗](https://github.com/j-tide/codex-bar)** — 在菜单栏掌握 Codex 任务、账号额度与用量。
-- **[fund-pulse ↗](https://github.com/j-tide/fund-pulse)** — 在菜单栏管理基金持仓、盘中估值与收益。
-- **[Tide ↗](https://github.com/j-tide/Tide)** — 本地优先的菜单栏番茄钟，记录专注与时间分配。
+| Project | Description |
+| :--- | :--- |
+| **[git-workflow](https://github.com/j-tide/git-workflow)** | AI 提交与代码审查，简化 Git 工作流。 |
+| **[codex-bar](https://github.com/j-tide/codex-bar)** | Codex 菜单栏助手，掌握任务、额度与用量。 |
+| [llmops](https://github.com/j-tide/llmops) | LLM 应用与工具插件平台（构建中）。 |
+| [code-review-mpx](https://github.com/j-tide/code-review-mpx) | 面向 Mpx 小程序的代码审查 Skill。 |
+| [fund-pulse](https://github.com/j-tide/fund-pulse) | macOS 基金持仓、估值与收益管理。 |
+| [Tide](https://github.com/j-tide/Tide) | 本地番茄钟、专注计时与时间统计。 |
 
 [查看全部项目 ↗](https://github.com/j-tide?tab=repositories)
 
