@@ -1,14 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="410" height="146" viewBox="0 0 410 146" role="img" aria-labelledby="title description">
 <title id="title">code-review-mpx</title>
 <desc id="description">面向 Mpx 小程序的代码审查 Skill。 Agent Skill. 0 GitHub stars.</desc>
-<rect x="0.5" y="0.5" width="399" height="135" rx="8" fill="#151E25" stroke="#354856"/>
+<rect x="8.5" y="0.5" width="401" height="135" rx="8" fill="#151E25" stroke="#354856"/>
 <g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, PingFang SC, Microsoft YaHei, sans-serif">
-<text x="21" y="38" font-size="23" font-weight="650" letter-spacing="-0.5" fill="#F2F5F7">code-review-mpx</text>
-<g transform="translate(366 19) scale(1.1875)" fill="#9FB6CB"><path d="M4.53 4.75A.75.75 0 0 1 5.28 4h6.01a.75.75 0 0 1 .75.75v6.01a.75.75 0 0 1-1.5 0v-4.2l-5.26 5.261a.749.749 0 0 1-1.275-.326.749.749 0 0 1 .215-.734L9.48 5.5h-4.2a.75.75 0 0 1-.75-.75Z"/></g>
-<text x="21" y="69" font-size="16" fill="#C5D3E0">面向 Mpx 小程序的代码审查 Skill。</text>
-<circle cx="25" cy="109" r="4" fill="#439CF6"/>
-<text x="42" y="113" font-size="12" font-family="SF Mono, Menlo, Consolas, monospace" fill="#ADC5DC">Agent Skill</text>
-<g transform="translate(351 100) scale(1.0)" fill="#EBCB82"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Zm0 2.445L6.615 5.5a.75.75 0 0 1-.564.41l-3.097.45 2.24 2.184a.75.75 0 0 1 .216.664l-.528 3.084 2.769-1.456a.75.75 0 0 1 .698 0l2.77 1.456-.53-3.084a.75.75 0 0 1 .216-.664l2.24-2.183-3.096-.45a.75.75 0 0 1-.564-.41L8 2.694Z"/></g>
-<text x="381" y="113" text-anchor="end" font-size="14" fill="#EBCB82">0</text>
+<text x="29" y="38" font-size="23" font-weight="650" letter-spacing="-0.5" fill="#F2F5F7">code-review-mpx</text>
+<g transform="translate(374 19) scale(1.1875)" fill="#9FB6CB"><path d="M4.53 4.75A.75.75 0 0 1 5.28 4h6.01a.75.75 0 0 1 .75.75v6.01a.75.75 0 0 1-1.5 0v-4.2l-5.26 5.261a.749.749 0 0 1-1.275-.326.749.749 0 0 1 .215-.734L9.48 5.5h-4.2a.75.75 0 0 1-.75-.75Z"/></g>
+<text x="29" y="69" font-size="16" fill="#C5D3E0">面向 Mpx 小程序的代码审查 Skill。</text>
+<circle cx="33" cy="109" r="4" fill="#439CF6"/>
+<text x="50" y="113" font-size="12" font-family="SF Mono, Menlo, Consolas, monospace" fill="#ADC5DC">Agent Skill</text>
+<g transform="translate(359 100) scale(1.0)" fill="#EBCB82"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Zm0 2.445L6.615 5.5a.75.75 0 0 1-.564.41l-3.097.45 2.24 2.184a.75.75 0 0 1 .216.664l-.528 3.084 2.769-1.456a.75.75 0 0 1 .698 0l2.77 1.456-.53-3.084a.75.75 0 0 1 .216-.664l2.24-2.183-3.096-.45a.75.75 0 0 1-.564-.41L8 2.694Z"/></g>
+<text x="389" y="113" text-anchor="end" font-size="14" fill="#EBCB82">0</text>
 </g>
 </svg>
