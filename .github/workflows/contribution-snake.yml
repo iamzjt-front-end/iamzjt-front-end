@@ -9,7 +9,6 @@ name: Update contribution snake
     paths:
       - .github/workflows/contribution-snake.yml
       - scripts/**
-      - assets/juejin-mark.svg
 
 permissions:
   contents: write
@@ -69,19 +68,14 @@ jobs:
           ref: snake
           path: snake-output
 
-      - name: Update Juejin follower badge
-        working-directory: source
-        run: python3 scripts/update-juejin.py dist ../snake-output
-
       - name: Publish updated images
         shell: bash
         run: |
           cp source/dist/github-contribution-grid-snake.svg source/dist/github-contribution-grid-snake-dark.svg source/dist/github-contribution-snake.json snake-output/
-          cp source/dist/juejin-profile.svg source/dist/juejin-profile.json snake-output/
           cd snake-output
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add github-contribution-grid-snake.svg github-contribution-grid-snake-dark.svg github-contribution-snake.json juejin-profile.svg juejin-profile.json
+          git add github-contribution-grid-snake.svg github-contribution-grid-snake-dark.svg github-contribution-snake.json
           if git diff --cached --quiet; then
             echo "Contribution images are already up to date."
             exit 0

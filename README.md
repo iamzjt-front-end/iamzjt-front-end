@@ -2,8 +2,8 @@
 
 <p>
   <picture>
-    <source media="(max-width: 600px)" srcset="assets/profile-header-mobile.svg?v=jt-signature" />
-    <img src="assets/profile-header.svg?v=jt-signature" width="100%" alt="J.Tide | Embracing AI, Embracing Change" />
+    <source media="(max-width: 600px)" srcset="assets/profile-cover-ai-mobile.svg?v=ai-cover" />
+    <img src="assets/profile-cover-ai.svg?v=ai-cover" width="100%" alt="J.Tide | Embracing AI, Embracing Change" />
   </picture>
 </p>
 
@@ -12,8 +12,8 @@
 - [codex-bar ↗](https://github.com/j-tide/codex-bar) — 在 macOS 菜单栏查看 Codex 任务、额度与用量。
 - [llmops ↗](https://github.com/j-tide/llmops) — LLM 应用开发实践。
 
-<a href="https://juejin.cn/user/958429872532632/posts?sort=newest" title="访问我的掘金主页">
-  <img src="https://raw.githubusercontent.com/j-tide/j-tide/snake/juejin-profile.svg" alt="掘金主页与粉丝数，点击访问 ↗" width="180" height="28" />
+<a href="https://juejin.cn/user/958429872532632/posts?sort=newest" title="阅读我的掘金技术文章">
+  <img src="assets/juejin-writing.svg" alt="掘金技术文章，点击阅读 ↗" width="180" height="28" />
 </a>
 
 <a name="-technology-stack"></a>

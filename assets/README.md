@@ -1,6 +1,6 @@
 # Profile assets
 
-The current header uses `profile-header.svg` at 1600 x 176 and `profile-header-mobile.svg` at 800 x 196 below 600 pixels. Both have a 24-pixel corner radius, use the contribution card's `#080b0f` background and `#9fc8b4` accent, and render text with system fonts. The custom `jt-monogram.svg` decorates the right side: the J hook and T stem share one flowing tidal crossbar. This editable vector mark is drawn specifically for J.Tide, with the same path geometry embedded in each banner so it renders reliably as a GitHub image. The desktop name and “Embracing AI, Embracing Change” tagline share one line; the mobile layout stacks them for readability. Earlier banner and intro assets are retained as design references.
+The current header uses `profile-cover-ai.svg` (1600 x 224) and `profile-cover-ai-mobile.svg` (800 x 210). The cover has a dark blue-gray background, a 24-pixel corner radius, stacked name and motto, and an AI core connected to tools and data. Typography is native SVG for crisp rendering. The original artwork is saved as `profile-ai-art.png`, generated with the built-in imagegen tool and embedded unchanged in each header. SVG viewports and edge masks fit the artwork into the narrow responsive layouts. Earlier headers and JT marks are retained as design references and are no longer used by the README.
 
 ## Technology badges
 
@@ -39,7 +39,15 @@ The frontend row lists TypeScript, Vue 3, React, Tailwind CSS, UnoCSS, Vite, WeC
 
 ## Juejin link
 
-The dark Juejin entry combines its brand mark, label, follower count, and outbound arrow into one linked badge. `juejin-mark.svg` is the Simple Icons mark obtained through Shields.io. The existing daily contribution workflow runs `scripts/update-juejin.py`, reads `data.follower_count` from the public Juejin user API, and publishes `juejin-profile.svg` plus its timestamped metadata on the `snake` branch. If the API fails, it preserves the last successfully generated badge and its original update timestamp. The badge does not depend on the reliability of Shields.io's live Juejin proxy.
+`juejin-writing.svg` is a static writing link labeled “掘金 · 技术文章 ↗”. It links directly to the author's article list, without follower counts. The follower-fetching script and its workflow steps have been removed; the contribution snake continues to update independently. `juejin-mark.svg` is the Simple Icons mark obtained through Shields.io.
+
+## Current AI cover generation
+
+Mode: built-in imagegen. Output: `profile-ai-art.png`. Name and motto are added separately in the SVG header.
+
+Prompt:
+
+> Use case: ads-marketing. Design one exceptionally polished, restrained AI-themed panoramic decorative background for a developer's narrow GitHub profile header. Brand J.Tide, AI agent engineer, audience experienced software engineers. This output is ONLY the background illustration; typesetting will be added separately in code. No text of any kind anywhere, except the exact two letters AI on the central chip. Composition: extremely wide landscape aspect ratio 6:1, ideally 2400 by 400 pixels, artwork fills the canvas to its edges, no margins, no mockup, no enclosing frame, no rounded corners because those will be applied in code. LEFT 62 percent must be nearly uniform near-black blue-gray #0b1018, calm negative space for a name and a one-line motto. RIGHT 32 percent contains a small sophisticated AI reasoning core: one compact flat square midnight-blue silicon tile with softly rounded corners and the letters AI engraved in warm-white, subtly elevated above a precision graphic surface. The chip is seen nearly front-on with only a very shallow architectural perspective, not a dramatic 3D angle. Only three very thin clean routed connections extend from the core toward three tiny square peripheral modules, evoking an agent using tools. Keep the whole motif legible and contained well inside the banner height, with large dark breathing room. Material finish: matte graphite with restrained cool silver edges, one very soft desaturated ice-blue accent. Premium industrial product photography fused with meticulous technical editorial graphics. Even controlled studio light; no dazzling highlights. The illustration subtly fades naturally into the plain background towards the center. It must feel composed, mature, and understated at a displayed size of 850 by 140 pixels. Avoid every one of these: metallic waves, ribbon sculptures, JT monograms, squiggly lettermarks, handwritten strokes, brains, robots, humanoids, faces, starbursts, purple gradients, neon cyan glow, hologram effects, busy circuit boards, random dots, floating text, charts, mock browser chrome, extra labels, watermarks. Deliver just one finished clean panoramic banner background.
 
 ## Earlier compact concept
 

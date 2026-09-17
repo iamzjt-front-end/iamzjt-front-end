@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="28" viewBox="0 0 180 28" role="img" aria-labelledby="title">
+  <title id="title">掘金 · 技术文章，点击阅读 ↗</title>
+  <rect width="180" height="28" rx="5" fill="#080b0f"/>
+  <image x="9" y="6" width="16" height="16" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiM5ZmM4YjQiIHJvbGU9ImltZyIgdmlld0JveD0iMCAwIDI0IDI0Ij48dGl0bGU+SnVlamluPC90aXRsZT48cGF0aCBkPSJtMTIgMTQuMzE2IDcuNDU0LTUuODgtMi4wMjItMS42MjVMMTIgMTEuMWwtLjAwNC4wMDMtNS40MzItNC4yODgtMi4wMiAxLjYyNCA3LjQ1MiA1Ljg4Wm0wLTcuMjQ3IDIuODktMi4yOThMMTIgMi40NTNsLS4wMDQtLjAwNS0yLjg4NCAyLjMxOCAyLjg4NCAyLjNabTAgMTEuMjY2LS4wMDUuMDAyLTkuOTc1LTcuODdMMCAxMi4wODhsLjE5NC4xNTYgMTEuODAzIDkuMzA4IDcuNDYzLTUuODg1TDI0IDEyLjA4NWwtMi4wMjMtMS42MjRaIiAvPjwvc3ZnPgo="/>
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif">
+    <text x="33" y="19" fill="#f0f6fc" font-size="12">掘金 · 技术文章</text>
+    <text x="158" y="19" fill="#f0f6fc" font-size="15">↗</text>
+  </g>
+</svg>
