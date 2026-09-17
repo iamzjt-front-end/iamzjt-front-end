@@ -13,13 +13,21 @@
   <img src="assets/juejin-writing.svg" alt="掘金技术文章，点击阅读 ↗" width="180" height="28" />
 </a>
 
-## Projects
+## Selected Projects
 
-**[codex-bar ↗](https://github.com/j-tide/codex-bar) · Codex 的 macOS 菜单栏助手**<br>
-集中查看任务进展、账号额度与 Token 用量，让并行开发少一点来回切换。
+**AI & Developer Tools**
 
-**[llmops ↗](https://github.com/j-tide/llmops) · LLM 应用开发平台（构建中）**<br>
-围绕应用管理、内置工具与自定义 API 插件，逐步搭建可扩展的 AI 应用后端。
+- **[git-workflow ↗](https://github.com/j-tide/git-workflow)** — 集成 AI 提交与代码审查的 Git 工作流 CLI。
+- **[code-review-mpx ↗](https://github.com/j-tide/code-review-mpx)** — 面向 Mpx 小程序的代码审查 Skill。
+- **[llmops ↗](https://github.com/j-tide/llmops)** — LLM 应用与工具插件开发平台，持续构建中。
+
+**macOS Apps**
+
+- **[codex-bar ↗](https://github.com/j-tide/codex-bar)** — 在菜单栏掌握 Codex 任务、账号额度与用量。
+- **[fund-pulse ↗](https://github.com/j-tide/fund-pulse)** — 在菜单栏管理基金持仓、盘中估值与收益。
+- **[Tide ↗](https://github.com/j-tide/Tide)** — 本地优先的菜单栏番茄钟，记录专注与时间分配。
+
+[查看全部项目 ↗](https://github.com/j-tide?tab=repositories)
 
 <a name="-technology-stack"></a>
 
