@@ -62,6 +62,8 @@
   <img src="assets/stack/react.svg?v=classic" alt="React" width="71" height="24" />
   <img src="assets/stack/tailwind.svg?v=frontend" alt="Tailwind CSS" width="119" height="24" />
   <img src="assets/stack/vite.svg?v=classic" alt="Vite" width="59" height="24" />
+  <img src="assets/stack/wechat-mini-program.svg?v=frontend" alt="微信小程序" width="100" height="24" />
+  <img src="assets/stack/uni-app.svg?v=frontend" alt="uni-app" width="86" height="24" />
 </p>
 
 <p>

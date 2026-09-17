@@ -6,7 +6,7 @@ The current header uses `profile-cover-ai.svg` (1600 x 224) and `profile-cover-a
 
 The local SVG badges in `stack/` are generated with Shields.io's `flat-square` style and displayed at a 24-pixel height, matching the original profile's compact rectangular badges. TypeScript, Node.js, and Git recover their original color backgrounds and white marks; Vue 3, React, and Vite recover their original dark backgrounds and colored marks. Added AI tools use the same combination of brand-color backgrounds or dark backgrounds with colored marks. Labels remain white throughout.
 
-Icon geometry comes from Simple Icons (originally obtained through Shields.io); the OpenAI mark comes from Simple Icons v13, and the Weaviate mark comes from the logo published on its official site. The stack follows the supplied reference in six visible categories: AI & Agents, RAG & Memory, Backend, Evaluation & Reliability, Frontend, and DevOps & Tooling. Each category has its own capability line below the badges. Earlier Tool Calling and Embeddings badge files remain as design references.
+Icon geometry comes from Simple Icons (originally obtained through Shields.io); the OpenAI mark comes from Simple Icons v13, and the Weaviate mark comes from the logo published on its official site. The stack follows the supplied reference in six visible categories: AI & Agents, RAG & Memory, Backend, Evaluation & Reliability, Frontend, and DevOps & Tooling. Categories display their badges without additional capability captions. Earlier Tool Calling and Embeddings badge files remain as design references.
 
 Palette reference: [Simple Icons data](https://github.com/simple-icons/simple-icons/blob/develop/data/simple-icons.json). Original source links are listed below. The Git mark is attributed to its designers under CC BY 3.0; Vue's artwork retains its upstream CC BY-NC-SA 4.0 license. All marks identify the technologies used in the profile.
 
@@ -48,7 +48,7 @@ Palette reference: [Simple Icons data](https://github.com/simple-icons/simple-ic
 | Linux | `#242A33` | `#FCC624` | [Source](https://www.linuxfoundation.org/the-linux-mark/) |
 | GitHub Actions | `#24292F` | `#FFFFFF` | [Source](https://github.com/features/actions) |
 
-The current frontend row follows the reference: TypeScript, Vue 3, React, Tailwind CSS, and Vite. Earlier frontend badge assets are retained as design references. The WeChat badge uses its parent brand mark; uni-app and Taro embed the original official PNG icons in the local SVG badges.
+The current frontend row contains TypeScript, Vue 3, React, Tailwind CSS, Vite, 微信小程序, and uni-app. Earlier frontend badge assets are retained as design references. The WeChat badge uses its parent brand mark; uni-app and Taro embed the original official PNG icons in the local SVG badges.
 
 Langfuse and Playwright marks come from their official repositories, and the LangSmith mark is its official documentation favicon. The pgvector badge uses a typographic V abbreviation, not an invented official logo. Other new marks are provided through Simple Icons / Shields.io.
 
