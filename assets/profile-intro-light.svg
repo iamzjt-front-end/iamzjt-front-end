@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="152" viewBox="0 0 1600 152" role="img" aria-labelledby="title desc">
+  <title id="title">Hi, I'm J.Tide. AI Agent Engineer.</title>
+  <desc id="desc">A compact personal introduction with balanced typography in the light theme.</desc>
+  <rect x="1" y="1" width="1598" height="150" rx="20" fill="#f6f8fa" stroke="#d1d9e0" stroke-width="2"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="54" y="96" fill="#1f2328" font-size="56" font-weight="600" letter-spacing="-0.5">Hi, I'm J.Tide.</text>
+    <text x="1546" y="91" fill="#59636e" text-anchor="end" font-size="32" font-weight="400" letter-spacing="0.1">AI Agent Engineer</text>
+  </g>
+</svg>
