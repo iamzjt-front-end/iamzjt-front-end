@@ -34,11 +34,6 @@
 <br><br>
 
 #  📈 Github Statistics
-<!-- 贪吃蛇代码贡献图 -->
-<div align="center">
-  <img src="https://github.com/iamzjt-front-end/iamzjt-front-end/blob/snake/github-contribution-grid-snake.svg"/>
-</div>
-
 <!-- GitHub数据统计 -->
 <!-- profile-3d-contrib -->
 <div align="center">
