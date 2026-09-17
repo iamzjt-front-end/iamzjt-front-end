@@ -45,9 +45,6 @@
   <img src="assets/stack/react.svg?v=classic" alt="React" width="71" height="24" />
 </p>
 
-<details>
-  <summary>其他开发经验与工具</summary>
-
 <p>
   <strong>Native &amp; Tooling</strong><br>
   <img src="assets/stack/swiftui.svg?v=classic" alt="Swift / SwiftUI" width="131" height="24" />
@@ -56,8 +53,6 @@
 </p>
 
 HTML5 / CSS3 / JavaScript / Express / Koa / Webpack
-
-</details>
 
 > <sub>人一能之，己百之；人十能之，己千之。<br>果能此道也，虽愚必明，虽柔必强。</sub>
 
