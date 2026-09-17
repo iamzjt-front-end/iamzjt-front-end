@@ -41,15 +41,20 @@
 <p>
   <strong>Frontend</strong><br>
   <img src="assets/stack/typescript.svg?v=classic" alt="TypeScript" width="105" height="24" />
-  <img src="assets/stack/vue.svg?v=classic" alt="Vue.js" width="76" height="24" />
+  <img src="assets/stack/vue.svg?v=frontend" alt="Vue 3" width="71" height="24" />
   <img src="assets/stack/react.svg?v=classic" alt="React" width="71" height="24" />
+  <img src="assets/stack/tailwind.svg?v=frontend" alt="Tailwind CSS" width="119" height="24" />
+  <img src="assets/stack/unocss.svg?v=frontend" alt="UnoCSS" width="88" height="24" />
+  <img src="assets/stack/vite.svg?v=classic" alt="Vite" width="59" height="24" />
+  <img src="assets/stack/wechat-mini-program.svg?v=frontend" alt="微信小程序" width="100" height="24" />
+  <img src="assets/stack/uni-app.svg?v=frontend" alt="uni-app" width="86" height="24" />
+  <img src="assets/stack/taro.svg?v=frontend" alt="Taro" width="64" height="24" />
 </p>
 
 <p>
   <strong>Native &amp; Tooling</strong><br>
   <img src="assets/stack/swiftui.svg?v=classic" alt="Swift / SwiftUI" width="131" height="24" />
   <img src="assets/stack/git.svg?v=classic" alt="Git" width="52" height="24" />
-  <img src="assets/stack/vite.svg?v=classic" alt="Vite" width="59" height="24" />
 </p>
 
 HTML5 / CSS3 / JavaScript / Express / Koa / Webpack

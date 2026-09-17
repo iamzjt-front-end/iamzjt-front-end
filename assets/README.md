@@ -4,7 +4,7 @@ The current header uses `profile-header.svg` at 1600 x 176 and `profile-header-m
 
 ## Technology badges
 
-The local SVG badges in `stack/` are generated with Shields.io's `flat-square` style and displayed at a 24-pixel height, matching the original profile's compact rectangular badges. TypeScript, Node.js, and Git recover their original color backgrounds and white marks; Vue.js, React, and Vite recover their original dark backgrounds and colored marks. Added AI tools use the same combination of brand-color backgrounds or dark backgrounds with colored marks. Labels remain white throughout.
+The local SVG badges in `stack/` are generated with Shields.io's `flat-square` style and displayed at a 24-pixel height, matching the original profile's compact rectangular badges. TypeScript, Node.js, and Git recover their original color backgrounds and white marks; Vue 3, React, and Vite recover their original dark backgrounds and colored marks. Added AI tools use the same combination of brand-color backgrounds or dark backgrounds with colored marks. Labels remain white throughout.
 
 Icon geometry comes from Simple Icons (originally obtained through Shields.io); the OpenAI mark comes from Simple Icons v13, and the Weaviate mark comes from the logo published on its official site. The stack is ordered AI & Agents, Backend, Frontend, then Native & Tooling, with all categories displayed directly. Tool Calling, RAG, and Embeddings appear as a secondary capability line rather than competing with product logos. Earlier Tool Calling and Embeddings badge files remain as design references.
 
@@ -23,12 +23,19 @@ Palette reference: [Simple Icons data](https://github.com/simple-icons/simple-ic
 | SQLAlchemy | `#D71F00` | `#FFFFFF` | [Source](https://commons.wikimedia.org/wiki/File:SQLAlchemy.svg) |
 | Pydantic | `#282C34` | `#E92063` | [Source](https://github.com/pydantic/pydantic/blob/94c748001a32992a587694b999fb1f3d2f1fc1fe/docs/logo-white.svg) |
 | TypeScript | `#007ACC` | `#FFFFFF` | [Source](https://www.typescriptlang.org/branding) |
-| Vue.js | `#2C3E50` | `#4FC08D` | [Source](https://github.com/vuejs/art/blob/a1c78b74569b70a25300925b4eacfefcc143b8f6/logo.svg) |
+| Vue 3 | `#2C3E50` | `#4FC08D` | [Source](https://github.com/vuejs/art/blob/a1c78b74569b70a25300925b4eacfefcc143b8f6/logo.svg) |
 | React | `#282C34` | `#61DAFB` | [Source](https://github.com/facebook/create-react-app/blob/282c03f9525fdf8061ffa1ec50dce89296d916bd/test/fixtures/relative-paths/src/logo.svg) |
 | Node.js | `#339933` | `#FFFFFF` | [Source](https://nodejs.org/en/about/branding) |
 | Swift / SwiftUI | `#F05138` | `#FFFFFF` | [Source](https://developer.apple.com/swift/resources/) |
 | Git | `#F05032` | `#FFFFFF` | [Source](https://git-scm.com/community/logos) |
 | Vite | `#2C3A42` | `#9135FF` | [Source](https://github.com/voidzero-dev/community-design-resources/blob/55902097229cf01cf2a4ceb376f992f5cf306756/brand-assets/vite/vite-icon-color-bracketless.svg) |
+| Tailwind CSS | `#0F172A` | `#06B6D4` | [Source](https://tailwindcss.com/brand) |
+| UnoCSS | `#333333` | `#FFFFFF` | [Source](https://github.com/unocss/unocss/blob/main/playground/public/icon.svg) |
+| 微信小程序 | `#07C160` | `#FFFFFF` | [WeChat brand mark](https://wechat.design/brand/main-brand) |
+| uni-app | `#2B9939` | Original icon | [Official documentation icon](https://qiniu-web-assets.dcloud.net.cn/unidoc/zh/icon.png?v=1556263038788) |
+| Taro | `#1978F6` | Original white mark | [Official documentation mark](https://github.com/NervJS/taro-docs/blob/master/static/img/logo-taro.png) |
+
+The frontend row lists TypeScript, Vue 3, React, Tailwind CSS, UnoCSS, Vite, WeChat Mini Programs, uni-app, and Taro in that order. The WeChat badge uses its parent brand mark; uni-app and Taro embed the original official PNG icons in the local SVG badges.
 
 ## Juejin link
 
