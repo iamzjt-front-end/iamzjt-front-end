@@ -34,8 +34,8 @@
 <br><br>
 
 #  📈 Github Statistics
-<!-- Contribution snake, generated daily from this account's activity. -->
+<!-- Rolling 90-day contribution snake, generated daily from this account's real activity. -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/j-tide/j-tide/snake/github-contribution-grid-snake.svg" alt="J.Tide 的 GitHub 贡献贪吃蛇" width="100%" />
+  <img src="https://raw.githubusercontent.com/j-tide/j-tide/snake/github-contribution-grid-snake.svg?v=90d" alt="J.Tide 最近 90 天的 GitHub 贡献贪吃蛇" width="100%" />
 </div>
 <br>

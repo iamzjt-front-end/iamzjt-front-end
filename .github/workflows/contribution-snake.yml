@@ -8,7 +8,7 @@ name: Update contribution snake
     branches: [main]
     paths:
       - .github/workflows/contribution-snake.yml
-      - scripts/style-snake.py
+      - scripts/**
 
 permissions:
   contents: write
@@ -28,16 +28,39 @@ jobs:
           path: source
           persist-credentials: false
 
-      - name: Generate dark contribution snake
-        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
+      - name: Check out pinned snake renderer
+        uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10
         with:
-          github_user_name: ${{ github.repository_owner }}
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          outputs: |
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+          repository: Platane/snk
+          ref: d8f6715049803e982ee5ff501b6b9b7d5deeb09b
+          path: source/.snake-engine
+          persist-credentials: false
+
+      - name: Set up Node.js
+        uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
+        with:
+          node-version: "24"
+
+      - name: Build contribution renderer
+        working-directory: source
+        run: |
+          npm ci --prefix scripts
+          npm run build --prefix scripts
+
+      - name: Generate the latest 90 days
+        working-directory: source
+        env:
+          GITHUB_USERNAME: ${{ github.repository_owner }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node dist/generate-snake.mjs
 
       - name: Add dark card background
-        run: python3 source/scripts/style-snake.py dist/github-contribution-grid-snake-dark.svg dist/github-contribution-grid-snake.svg
+        working-directory: source
+        run: >-
+          python3 scripts/style-snake.py
+          dist/github-contribution-grid-snake-dark.svg
+          dist/github-contribution-snake.json
+          dist/github-contribution-grid-snake.svg
 
       - name: Check out generated images
         uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10
@@ -48,11 +71,11 @@ jobs:
       - name: Publish updated images
         shell: bash
         run: |
-          cp dist/github-contribution-grid-snake.svg dist/github-contribution-grid-snake-dark.svg snake-output/
+          cp source/dist/github-contribution-grid-snake.svg source/dist/github-contribution-grid-snake-dark.svg source/dist/github-contribution-snake.json snake-output/
           cd snake-output
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add github-contribution-grid-snake.svg github-contribution-grid-snake-dark.svg
+          git add github-contribution-grid-snake.svg github-contribution-grid-snake-dark.svg github-contribution-snake.json
           if git diff --cached --quiet; then
             echo "Contribution images are already up to date."
             exit 0

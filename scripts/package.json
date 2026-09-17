@@ -1,0 +1,11 @@
+{
+  "name": "profile-contribution-snake",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "esbuild generate-snake.mjs --bundle --platform=node --format=esm --alias:@snk=../.snake-engine/packages --outfile=../dist/generate-snake.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.12"
+  }
+}
