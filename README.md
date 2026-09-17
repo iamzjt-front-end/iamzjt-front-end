@@ -1,6 +1,11 @@
 <a name="-helloim-jtide"></a>
 
-<img src="assets/profile-banner.svg" width="100%" alt="J.Tide | AI Agent Engineer" />
+<p>
+  <picture>
+    <source media="(max-width: 600px)" srcset="assets/profile-banner-mobile.svg" />
+    <img src="assets/profile-banner.svg" width="100%" alt="J.Tide | AI Agent Engineer" />
+  </picture>
+</p>
 
 **AI Agent 开发工程师，拥有前端与全栈开发背景。**
 

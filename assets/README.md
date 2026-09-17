@@ -1,6 +1,10 @@
 # Profile assets
 
-`profile-banner.svg` is the current compact rounded header. It embeds `profile-banner-compact.png` in a 1920 x 198 viewport, keeping the original image pixels and removing the transparent canvas from the README layout. The smaller metallic wave stays at the right end of the strip.
+`profile-banner.svg` is the current typography-only header: a 1600 x 184 charcoal strip with small rounded corners, the name above the role, and no decorative image. `profile-banner-mobile.svg` uses an 800 x 200 layout so the text remains readable on narrow screens. The README selects the mobile asset below 600 pixels through a `<picture>` source.
+
+Both current headers are editable SVGs and do not depend on generated imagery or external fonts. The raster concepts below are retained as design references.
+
+## Earlier compact concept
 
 `profile-banner-compact.png` was edited with the built-in imagegen tool using the previous compact strip as the edit target and the original banner as the artwork reference.
 
