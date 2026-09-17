@@ -27,9 +27,12 @@ def icon(name, x, y, color, size=16):
     return f'<g transform="translate({x} {y}) scale({size / 16})" fill="{color}">{paths}</g>'
 
 
-def card(name, description, mobile_lines, meta, stars, mobile=False):
+def card(name, description, mobile_lines, meta, stars, mobile=False, column=0):
     width, height = (308, 160) if mobile else (410, 146)
-    right, padding = width - 29, 21
+    # Only the inner edge has a gutter; both outer edges align with the cover.
+    left_gutter = 8 if not mobile and column == 1 else 0
+    right_gutter = 8 if not mobile and column == 0 else 0
+    right, padding = width - right_gutter - 21, left_gutter + 21
     title_size, body_size = (20, 14) if mobile else (23, 16)
     footer = height - 33
     lines = mobile_lines if mobile else [description]
@@ -38,7 +41,7 @@ def card(name, description, mobile_lines, meta, stars, mobile=False):
     svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-labelledby="title description">
 <title id="title">{escape(name)}</title>
 <desc id="description">{escape(description)} {escape(meta)}. {stars} GitHub stars.</desc>
-<rect x="0.5" y="0.5" width="{width - 11}" height="{height - 11}" rx="8" fill="#151E25" stroke="#354856"/>
+<rect x="{left_gutter + 0.5}" y="0.5" width="{width - left_gutter - right_gutter - 1}" height="{height - 11}" rx="8" fill="#151E25" stroke="#354856"/>
 <g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, PingFang SC, Microsoft YaHei, sans-serif">
 <text x="{padding}" y="38" font-size="{title_size}" font-weight="650" letter-spacing="-0.5" fill="#F2F5F7">{escape(name)}</text>
 {icon("arrow-up-right", right - 15, 19, "#9FB6CB", 19)}
@@ -60,7 +63,7 @@ def main():
         headers["Authorization"] = "Bearer " + os.environ["GITHUB_TOKEN"]
     rendered, counts = {}, {}
     # Fetch everything before writing: an API failure must not publish fake zeros.
-    for name, description, mobile_lines, meta in PROJECTS:
+    for index, (name, description, mobile_lines, meta) in enumerate(PROJECTS):
         req = Request(f"https://api.github.com/repos/{owner}/{name}", headers=headers)
         with urlopen(req, timeout=30) as response:
             repo = json.load(response)
@@ -70,7 +73,7 @@ def main():
         counts[name] = stars
         for mobile in (False, True):
             filename = f'{name}{"-mobile" if mobile else ""}.svg'
-            rendered[filename] = card(name, description, mobile_lines, meta, stars, mobile)
+            rendered[filename] = card(name, description, mobile_lines, meta, stars, mobile, index % 2)
     output = Path(sys.argv[1] if len(sys.argv) > 1 else "dist/project-cards")
     output.mkdir(parents=True, exist_ok=True)
     for filename, svg in rendered.items():
