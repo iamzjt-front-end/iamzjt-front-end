@@ -2,10 +2,8 @@
 
 <p>
   <picture>
-    <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/profile-intro-mobile-dark.svg" />
-    <source media="(max-width: 600px)" srcset="assets/profile-intro-mobile-light.svg" />
-    <source media="(prefers-color-scheme: dark)" srcset="assets/profile-intro-dark.svg" />
-    <img src="assets/profile-intro-light.svg" width="100%" alt="Hi, I'm J.Tide. AI Agent Engineer." />
+    <source media="(max-width: 600px)" srcset="assets/profile-header-mobile.svg" />
+    <img src="assets/profile-header.svg" width="100%" alt="J.Tide | AI Agent Engineer" />
   </picture>
 </p>
 
@@ -13,7 +11,7 @@
 正在构建 <a href="https://github.com/j-tide/llmops">llmops</a>，并维护日常开发工具 <a href="https://github.com/j-tide/codex-bar">codex-bar</a>。</p>
 
 <a href="https://juejin.cn/user/958429872532632/posts?sort=newest" title="访问我的掘金主页">
-  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.juejin.cn%2Fuser_api%2Fv1%2Fuser%2Fget%3Fuser_id%3D958429872532632&amp;query=%24.data.follower_count&amp;label=%E6%8E%98%E9%87%91%E4%B8%BB%E9%A1%B5&amp;suffix=+%E7%B2%89%E4%B8%9D+%E2%86%97&amp;style=for-the-badge&amp;logo=juejin&amp;logoColor=white&amp;labelColor=0969da&amp;color=eef4fb&amp;cacheSeconds=3600" alt="掘金主页与粉丝数，点击访问 ↗" width="195" height="32" />
+  <img src="https://raw.githubusercontent.com/j-tide/j-tide/snake/juejin-profile.svg" alt="掘金主页与粉丝数，点击访问 ↗" width="180" height="28" />
 </a>
 
 <a name="-technology-stack"></a>
@@ -22,35 +20,35 @@
 
 <p>
   <strong>AI &amp; Agents</strong><br>
-  <img src="assets/stack/python.svg?v=brand" alt="Python" width="84" height="24" />
-  <img src="assets/stack/langchain.svg?v=brand" alt="LangChain" width="108" height="24" />
-  <img src="assets/stack/openai.svg?v=brand" alt="OpenAI SDK" width="113" height="24" />
-  <img src="assets/stack/deepseek.svg?v=brand" alt="DeepSeek" width="105" height="24" />
-  <img src="assets/stack/tool-calling.svg?v=brand" alt="Tool Calling" width="94" height="24" />
+  <img src="assets/stack/python.svg?v=classic" alt="Python" width="81" height="24" />
+  <img src="assets/stack/langchain.svg?v=classic" alt="LangChain" width="102" height="24" />
+  <img src="assets/stack/openai.svg?v=classic" alt="OpenAI SDK" width="117" height="24" />
+  <img src="assets/stack/deepseek.svg?v=classic" alt="DeepSeek" width="100" height="24" />
+  <img src="assets/stack/tool-calling.svg?v=classic" alt="Tool Calling" width="90" height="24" />
 </p>
 
 <p>
   <strong>RAG &amp; Backend</strong><br>
-  <img src="assets/stack/embeddings.svg?v=brand" alt="Embeddings" width="103" height="24" />
-  <img src="assets/stack/weaviate.svg?v=brand" alt="Weaviate" width="104" height="24" />
-  <img src="assets/stack/flask.svg?v=brand" alt="Flask" width="72" height="24" />
-  <img src="assets/stack/sqlalchemy.svg?v=brand" alt="SQLAlchemy" width="123" height="24" />
-  <img src="assets/stack/pydantic.svg?v=brand" alt="Pydantic" width="100" height="24" />
+  <img src="assets/stack/embeddings.svg?v=classic" alt="Embeddings" width="93" height="24" />
+  <img src="assets/stack/weaviate.svg?v=classic" alt="Weaviate" width="95" height="24" />
+  <img src="assets/stack/flask.svg?v=classic" alt="Flask" width="69" height="24" />
+  <img src="assets/stack/sqlalchemy.svg?v=classic" alt="SQLAlchemy" width="117" height="24" />
+  <img src="assets/stack/pydantic.svg?v=classic" alt="Pydantic" width="90" height="24" />
 </p>
 
 <p>
   <strong>Web</strong><br>
-  <img src="assets/stack/typescript.svg?v=brand" alt="TypeScript" width="111" height="24" />
-  <img src="assets/stack/vue.svg?v=brand" alt="Vue" width="67" height="24" />
-  <img src="assets/stack/react.svg?v=brand" alt="React" width="77" height="24" />
-  <img src="assets/stack/node.svg?v=brand" alt="Node.js" width="87" height="24" />
+  <img src="assets/stack/typescript.svg?v=classic" alt="TypeScript" width="105" height="24" />
+  <img src="assets/stack/vue.svg?v=classic" alt="Vue.js" width="76" height="24" />
+  <img src="assets/stack/react.svg?v=classic" alt="React" width="71" height="24" />
+  <img src="assets/stack/node.svg?v=classic" alt="Node.js" width="83" height="24" />
 </p>
 
 <p>
   <strong>Native &amp; Tooling</strong><br>
-  <img src="assets/stack/swiftui.svg?v=brand" alt="Swift / SwiftUI" width="139" height="24" />
-  <img src="assets/stack/git.svg?v=brand" alt="Git" width="59" height="24" />
-  <img src="assets/stack/vite.svg?v=brand" alt="Vite" width="66" height="24" />
+  <img src="assets/stack/swiftui.svg?v=classic" alt="Swift / SwiftUI" width="131" height="24" />
+  <img src="assets/stack/git.svg?v=classic" alt="Git" width="52" height="24" />
+  <img src="assets/stack/vite.svg?v=classic" alt="Vite" width="59" height="24" />
 </p>
 
 <details>

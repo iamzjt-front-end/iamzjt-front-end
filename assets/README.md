@@ -1,36 +1,38 @@
 # Profile assets
 
-The current header uses `profile-intro-light.svg` and `profile-intro-dark.svg` at 1600 x 152. The corresponding `profile-intro-mobile-*.svg` assets use an 800 x 190 layout below 600 pixels. The README selects the appropriate screen size and color scheme with `<picture>` sources. These are editable SVGs using system fonts; the former `profile-banner*` assets are retained as earlier concepts.
+The current header uses `profile-header.svg` at 1600 x 176 and `profile-header-mobile.svg` at 800 x 196 below 600 pixels. Both have a 24-pixel corner radius, use the contribution card's `#080b0f` background and `#9fc8b4` accent, and render text with system fonts. Seven low-contrast tidal contour lines decorate the right side. The desktop name and role share one line; the mobile layout stacks them for readability. Earlier banner and intro assets are retained as design references.
 
 ## Technology badges
 
-The local SVG badges in `stack/` use each tool's brand palette with a consistent 24-pixel height and small rounded corners. Icon geometry comes from Simple Icons (originally obtained through Shields.io); the OpenAI mark comes from Simple Icons v13, and the Weaviate mark comes from the logo published on its official site. Black or white foregrounds are chosen to keep text contrast at least 4.5:1. Tool Calling and Embeddings are unbranded capability labels and use a neutral gray.
+The local SVG badges in `stack/` are generated with Shields.io's `flat-square` style and displayed at a 24-pixel height, matching the original profile's compact rectangular badges. TypeScript, Node.js, and Git recover their original color backgrounds and white marks; Vue.js, React, and Vite recover their original dark backgrounds and colored marks. Added AI tools use the same combination of brand-color backgrounds or dark backgrounds with colored marks. Labels remain white throughout.
+
+Icon geometry comes from Simple Icons (originally obtained through Shields.io); the OpenAI mark comes from Simple Icons v13, and the Weaviate mark comes from the logo published on its official site. Tool Calling and Embeddings are unbranded capability labels and use a neutral gray.
 
 Palette reference: [Simple Icons data](https://github.com/simple-icons/simple-icons/blob/develop/data/simple-icons.json). Original source links are listed below. The Git mark is attributed to its designers under CC BY 3.0; Vue's artwork retains its upstream CC BY-NC-SA 4.0 license. All marks identify the technologies used in the profile.
 
-| Badge | Background | Source |
-| --- | --- | --- |
-| Python | `#3776AB` | [Source](https://www.python.org/community/logos/) |
-| LangChain | `#7FC8FF` | [Source](https://www.langchain.com/langchain) |
-| OpenAI SDK | `#000000` | [Source](https://openai.com/brand/) |
-| DeepSeek | `#5786FE` | [Source](https://www.deepseek.com) |
-| Tool Calling | `#59636E` | Unbranded capability label |
-| Embeddings | `#59636E` | Unbranded capability label |
-| Weaviate | `#75FBAE` | [Source](https://weaviate.io/img/site/2026/weaviate-logo-2-colours-dark-green.svg) |
-| Flask | `#3BABC3` | [Source](https://github.com/pallets/flask/blob/85c5d93cbd049c4bd0679c36fd1ddcae8c37b642/docs/_static/flask-icon.svg) |
-| SQLAlchemy | `#D71F00` | [Source](https://commons.wikimedia.org/wiki/File:SQLAlchemy.svg) |
-| Pydantic | `#E92063` | [Source](https://github.com/pydantic/pydantic/blob/94c748001a32992a587694b999fb1f3d2f1fc1fe/docs/logo-white.svg) |
-| TypeScript | `#3178C6` | [Source](https://www.typescriptlang.org/branding) |
-| Vue | `#4FC08D` | [Source](https://github.com/vuejs/art/blob/a1c78b74569b70a25300925b4eacfefcc143b8f6/logo.svg) |
-| React | `#61DAFB` | [Source](https://github.com/facebook/create-react-app/blob/282c03f9525fdf8061ffa1ec50dce89296d916bd/test/fixtures/relative-paths/src/logo.svg) |
-| Node.js | `#5FA04E` | [Source](https://nodejs.org/en/about/branding) |
-| Swift / SwiftUI | `#F05138` | [Source](https://developer.apple.com/swift/resources/) |
-| Git | `#F03C2E` | [Source](https://git-scm.com/community/logos) |
-| Vite | `#9135FF` | [Source](https://github.com/voidzero-dev/community-design-resources/blob/55902097229cf01cf2a4ceb376f992f5cf306756/brand-assets/vite/vite-icon-color-bracketless.svg) |
+| Badge | Background | Mark | Source |
+| --- | --- | --- | --- |
+| Python | `#3776AB` | `#FFFFFF` | [Source](https://www.python.org/community/logos/) |
+| LangChain | `#1C3C3C` | `#7FC8FF` | [Source](https://www.langchain.com/langchain) |
+| OpenAI SDK | `#000000` | `#FFFFFF` | [Source](https://openai.com/brand/) |
+| DeepSeek | `#282C34` | `#5786FE` | [Source](https://www.deepseek.com) |
+| Tool Calling | `#455A64` | None | Unbranded capability label |
+| Embeddings | `#455A64` | None | Unbranded capability label |
+| Weaviate | `#1C3C3C` | `#75FBAE` | [Source](https://weaviate.io/img/site/2026/weaviate-logo-2-colours-dark-green.svg) |
+| Flask | `#000000` | `#FFFFFF` | [Source](https://github.com/pallets/flask/blob/85c5d93cbd049c4bd0679c36fd1ddcae8c37b642/docs/_static/flask-icon.svg) |
+| SQLAlchemy | `#D71F00` | `#FFFFFF` | [Source](https://commons.wikimedia.org/wiki/File:SQLAlchemy.svg) |
+| Pydantic | `#282C34` | `#E92063` | [Source](https://github.com/pydantic/pydantic/blob/94c748001a32992a587694b999fb1f3d2f1fc1fe/docs/logo-white.svg) |
+| TypeScript | `#007ACC` | `#FFFFFF` | [Source](https://www.typescriptlang.org/branding) |
+| Vue.js | `#2C3E50` | `#4FC08D` | [Source](https://github.com/vuejs/art/blob/a1c78b74569b70a25300925b4eacfefcc143b8f6/logo.svg) |
+| React | `#282C34` | `#61DAFB` | [Source](https://github.com/facebook/create-react-app/blob/282c03f9525fdf8061ffa1ec50dce89296d916bd/test/fixtures/relative-paths/src/logo.svg) |
+| Node.js | `#339933` | `#FFFFFF` | [Source](https://nodejs.org/en/about/branding) |
+| Swift / SwiftUI | `#F05138` | `#FFFFFF` | [Source](https://developer.apple.com/swift/resources/) |
+| Git | `#F05032` | `#FFFFFF` | [Source](https://git-scm.com/community/logos) |
+| Vite | `#2C3A42` | `#9135FF` | [Source](https://github.com/voidzero-dev/community-design-resources/blob/55902097229cf01cf2a4ceb376f992f5cf306756/brand-assets/vite/vite-icon-color-bracketless.svg) |
 
 ## Juejin link
 
-The blue Juejin entry combines its brand mark, profile label, live follower count, and outbound arrow into one linked badge. It reads `data.follower_count` from the public Juejin user API through Shields.io and requests a one-hour badge cache.
+The dark Juejin entry combines its brand mark, label, follower count, and outbound arrow into one linked badge. `juejin-mark.svg` is the Simple Icons mark obtained through Shields.io. The existing daily contribution workflow runs `scripts/update-juejin.py`, reads `data.follower_count` from the public Juejin user API, and publishes `juejin-profile.svg` plus its timestamped metadata on the `snake` branch. If the API fails, it preserves the last successfully generated badge and its original update timestamp. The badge does not depend on the reliability of Shields.io's live Juejin proxy.
 
 ## Earlier compact concept
 
@@ -42,7 +44,7 @@ Compact banner prompt:
 
 ## Original concept
 
-`profile-banner.png` was generated using Codex's built-in imagegen tool. It is retained as the original artwork reference; the profile now uses the compact banner above.
+`profile-banner.png` was generated using Codex's built-in imagegen tool. It is retained as the original artwork reference; the profile now uses the SVG signature banner above.
 
 Generation prompt:
 
