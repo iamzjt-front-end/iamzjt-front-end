@@ -9,12 +9,17 @@
 
 **AI Agent 开发工程师**
 
-- [codex-bar ↗](https://github.com/j-tide/codex-bar) — 在 macOS 菜单栏查看 Codex 任务、额度与用量。
-- [llmops ↗](https://github.com/j-tide/llmops) — LLM 应用开发实践。
-
 <a href="https://juejin.cn/user/958429872532632/posts?sort=newest" title="阅读我的掘金技术文章">
   <img src="assets/juejin-writing.svg" alt="掘金技术文章，点击阅读 ↗" width="180" height="28" />
 </a>
+
+## Projects
+
+**[codex-bar ↗](https://github.com/j-tide/codex-bar) · Codex 的 macOS 菜单栏助手**<br>
+集中查看任务进展、账号额度与 Token 用量，让并行开发少一点来回切换。
+
+**[llmops ↗](https://github.com/j-tide/llmops) · LLM 应用开发平台（构建中）**<br>
+围绕应用管理、内置工具与自定义 API 插件，逐步搭建可扩展的 AI 应用后端。
 
 <a name="-technology-stack"></a>
 
