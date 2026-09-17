@@ -1,6 +1,16 @@
 # Profile assets
 
-`profile-banner.png` was generated using Codex's built-in imagegen tool. The original output is used without image edits. Accessible identity text is supplied in the profile README.
+`profile-banner.svg` is the current compact rounded header. It embeds `profile-banner-compact.png` in a 1920 x 198 viewport, keeping the original image pixels and removing the transparent canvas from the README layout. The smaller metallic wave stays at the right end of the strip.
+
+`profile-banner-compact.png` was edited with the built-in imagegen tool using the previous compact strip as the edit target and the original banner as the artwork reference.
+
+Compact banner prompt:
+
+> Edit Image 1, the compact rounded signature strip. Image 2 is only the reference for the silver metallic tidal wave sculpture. Preserve Image 1's compact long thin shape, dark charcoal color, rounded corners, transparent outer canvas, exact single-line typography 'J.Tide | AI Agent Engineer', identity text placement, and modest text size. The image canvas can remain 1920 x 819 exactly as Image 1; the actual visible nameplate must remain confined to the same narrow horizontal band, approximately x=13 to 1907 and y=321 to 499, with full transparency outside. Do not expand or increase the height of the strip. Add the recognizable sculptural brushed-silver tidal ribbon from Image 2 to the RIGHTMOST 25 percent of the nameplate only, gracefully scaled down to fit the strip height. Keep its silver texture and very subtle sage-green edge, but greatly subdue its highlights so it is a quiet decorative accent, lower contrast than the identity text. It should be a miniature of the reference wave integrated naturally into the dark right end of the bar, entirely clipped inside the rounded silhouette. Leave generous dark breathing space between the text and the artwork. No additional text, no extra panels, no cards, no new symbols, no giant wave, no tall hero image, no glow, no pattern. The requested final design is a calm low-profile rounded signature banner that retains the recognizable original wave as a small right-side detail.
+
+## Original concept
+
+`profile-banner.png` was generated using Codex's built-in imagegen tool. It is retained as the original artwork reference; the profile now uses the compact banner above.
 
 Generation prompt:
 
@@ -9,3 +19,5 @@ Generation prompt:
 The static technology badges in `stack/` come from Shields.io and use Simple Icons. Their shared background is `#161d25` and logo color is `#a8cdbd`. They are stored locally so the profile does not depend on a badge service for each page load. Example source:
 
 `https://img.shields.io/badge/Python-161d25?style=flat-square&logo=python&logoColor=a8cdbd`
+
+The Juejin follower badge in the profile README reads `data.follower_count` from the public Juejin user API through Shields.io. It links to the Juejin profile and requests a one-hour badge cache.
