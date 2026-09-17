@@ -27,8 +27,6 @@
   <img src="assets/stack/openai.svg?v=classic" alt="OpenAI SDK" width="117" height="24" />
   <img src="assets/stack/deepseek.svg?v=classic" alt="DeepSeek" width="100" height="24" />
   <img src="assets/stack/mcp.svg" alt="MCP" width="62" height="24" />
-  <br>
-  <sub>Tool Calling · Structured Output · Agent Workflow · Context Engineering</sub>
 </p>
 
 <p>
@@ -37,8 +35,6 @@
   <img src="assets/stack/pgvector.svg" alt="pgvector" width="93" height="24" />
   <img src="assets/stack/weaviate.svg?v=classic" alt="Weaviate" width="95" height="24" />
   <img src="assets/stack/redis.svg" alt="Redis" width="69" height="24" />
-  <br>
-  <sub>RAG · Embeddings · Hybrid Search · Reranking · Long-term Memory</sub>
 </p>
 
 <p>
@@ -49,8 +45,6 @@
   <img src="assets/stack/pydantic.svg?v=classic" alt="Pydantic" width="90" height="24" />
   <img src="assets/stack/sqlalchemy.svg?v=classic" alt="SQLAlchemy" width="117" height="24" />
   <img src="assets/stack/node.svg?v=classic" alt="Node.js" width="83" height="24" />
-  <br>
-  <sub>Async I/O · REST API · SSE · Authentication · Task Queue</sub>
 </p>
 
 <p>
@@ -59,8 +53,6 @@
   <img src="assets/stack/langfuse.svg" alt="Langfuse" width="93" height="24" />
   <img src="assets/stack/langsmith.svg" alt="LangSmith" width="105" height="24" />
   <img src="assets/stack/playwright.svg" alt="Playwright" width="102" height="24" />
-  <br>
-  <sub>Agent Evals · Tracing · Checkpoints · Retry &amp; Recovery · Human-in-the-loop</sub>
 </p>
 
 <p>
@@ -70,8 +62,6 @@
   <img src="assets/stack/react.svg?v=classic" alt="React" width="71" height="24" />
   <img src="assets/stack/tailwind.svg?v=frontend" alt="Tailwind CSS" width="119" height="24" />
   <img src="assets/stack/vite.svg?v=classic" alt="Vite" width="59" height="24" />
-  <br>
-  <sub>Streaming UI · Tool Status · Task Progress · Human Approval</sub>
 </p>
 
 <p>
@@ -80,8 +70,6 @@
   <img src="assets/stack/linux.svg" alt="Linux" width="69" height="24" />
   <img src="assets/stack/git.svg?v=classic" alt="Git" width="52" height="24" />
   <img src="assets/stack/github-actions.svg" alt="GitHub Actions" width="131" height="24" />
-  <br>
-  <sub>Containerization · CI/CD · Secrets · Logging · Execution Isolation</sub>
 </p>
 
 > <sub>人一能之，己百之；人十能之，己千之。<br>果能此道也，虽愚必明，虽柔必强。</sub>
