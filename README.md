@@ -1,4 +1,4 @@
-#  🙋 Hello，I'm IamZJT!
+#  🙋 Hello，I'm J.Tide!
 
 <p>✍️&nbsp;&nbsp;一名AI全栈开发工程师！</p>
 <p>&emsp;&emsp;人一能之，己百之；人十能之，己千之。</p>
