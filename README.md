@@ -57,8 +57,6 @@
   <img src="assets/stack/git.svg?v=classic" alt="Git" width="52" height="24" />
 </p>
 
-HTML5 / CSS3 / JavaScript / Express / Koa / Webpack
-
 > <sub>人一能之，己百之；人十能之，己千之。<br>果能此道也，虽愚必明，虽柔必强。</sub>
 
 <a name="-github-statistics"></a>
