@@ -1,23 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="196" viewBox="0 0 800 196" role="img" aria-labelledby="title desc">
-  <title id="title">J.Tide | AI Agent Engineer</title>
-  <desc id="desc">A compact dark signature banner with soft tidal contour lines.</desc>
+  <title id="title">J.Tide | Embracing AI, Embracing Change</title>
+  <desc id="desc">A compact dark signature banner with the custom JT tidal monogram.</desc>
   <defs>
     <clipPath id="card"><rect width="800" height="196" rx="24"/></clipPath>
-    <linearGradient id="tide" x1="0" x2="748" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#9fc8b4" stop-opacity="0"/>
-      <stop offset=".4" stop-color="#9fc8b4" stop-opacity=".5"/>
-      <stop offset=".73" stop-color="#9fc8b4" stop-opacity=".36"/>
-      <stop offset="1" stop-color="#9fc8b4" stop-opacity=".07"/>
-    </linearGradient>
   </defs>
   <g clip-path="url(#card)">
     <rect width="800" height="196" fill="#080b0f"/>
-    <g transform="translate(340 -8) scale(.68 1)" fill="none" stroke="url(#tide)" stroke-width="1.6" stroke-linecap="round">
-      <path d="M0 126 C126 126 145 62 260 62 S438 152 522 109 S628 20 748 35"/><path d="M0 133 C126 133 145 67 260 67 S438 155 522 114 S628 27 748 42"/><path d="M0 140 C126 140 145 72 260 72 S438 158 522 119 S628 34 748 49"/><path d="M0 147 C126 147 145 77 260 77 S438 161 522 124 S628 41 748 56"/><path d="M0 154 C126 154 145 82 260 82 S438 164 522 129 S628 48 748 63"/><path d="M0 161 C126 161 145 87 260 87 S438 167 522 134 S628 55 748 70"/><path d="M0 168 C126 168 145 92 260 92 S438 170 522 139 S628 62 748 77"/>
+    <g transform="translate(574 27) scale(.74)" fill="none" stroke="#9fc8b4" stroke-opacity=".55" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M20 38H80C106 38 110 22 134 22S174 54 198 54S222 38 236 38"/>
+      <path d="M80 38V84C80 105 67 118 48 118C34 118 25 113 18 104"/>
+      <path d="M162 38V118"/>
     </g>
   </g>
   <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif">
     <text x="42" y="82" fill="#f0f6fc" font-size="54" font-weight="600" letter-spacing="-1.2">J.Tide</text>
-    <text x="43" y="135" fill="#9fc8b4" font-size="31" font-weight="400">AI Agent Engineer</text>
+    <text x="43" y="135" fill="#9fc8b4" font-size="29" font-weight="400">Embracing AI, Embracing Change</text>
   </g>
 </svg>

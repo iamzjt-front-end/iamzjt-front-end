@@ -2,13 +2,15 @@
 
 <p>
   <picture>
-    <source media="(max-width: 600px)" srcset="assets/profile-header-mobile.svg" />
-    <img src="assets/profile-header.svg" width="100%" alt="J.Tide | AI Agent Engineer" />
+    <source media="(max-width: 600px)" srcset="assets/profile-header-mobile.svg?v=jt-signature" />
+    <img src="assets/profile-header.svg?v=jt-signature" width="100%" alt="J.Tide | Embracing AI, Embracing Change" />
   </picture>
 </p>
 
-<p>以全栈开发为基础，专注工具调用、RAG 与 Agent 工作流。<br>
-正在构建 <a href="https://github.com/j-tide/llmops">llmops</a>，并维护日常开发工具 <a href="https://github.com/j-tide/codex-bar">codex-bar</a>。</p>
+**AI Agent 开发工程师 · 前端与全栈背景**
+
+- [codex-bar ↗](https://github.com/j-tide/codex-bar) — 在 macOS 菜单栏查看 Codex 任务、额度与用量。
+- [llmops ↗](https://github.com/j-tide/llmops) — LLM 应用开发实践。
 
 <a href="https://juejin.cn/user/958429872532632/posts?sort=newest" title="访问我的掘金主页">
   <img src="https://raw.githubusercontent.com/j-tide/j-tide/snake/juejin-profile.svg" alt="掘金主页与粉丝数，点击访问 ↗" width="180" height="28" />
@@ -20,29 +22,31 @@
 
 <p>
   <strong>AI &amp; Agents</strong><br>
-  <img src="assets/stack/python.svg?v=classic" alt="Python" width="81" height="24" />
   <img src="assets/stack/langchain.svg?v=classic" alt="LangChain" width="102" height="24" />
   <img src="assets/stack/openai.svg?v=classic" alt="OpenAI SDK" width="117" height="24" />
   <img src="assets/stack/deepseek.svg?v=classic" alt="DeepSeek" width="100" height="24" />
-  <img src="assets/stack/tool-calling.svg?v=classic" alt="Tool Calling" width="90" height="24" />
-</p>
-
-<p>
-  <strong>RAG &amp; Backend</strong><br>
-  <img src="assets/stack/embeddings.svg?v=classic" alt="Embeddings" width="93" height="24" />
   <img src="assets/stack/weaviate.svg?v=classic" alt="Weaviate" width="95" height="24" />
-  <img src="assets/stack/flask.svg?v=classic" alt="Flask" width="69" height="24" />
-  <img src="assets/stack/sqlalchemy.svg?v=classic" alt="SQLAlchemy" width="117" height="24" />
-  <img src="assets/stack/pydantic.svg?v=classic" alt="Pydantic" width="90" height="24" />
+  <br><sub>Tool Calling · RAG · Embeddings</sub>
 </p>
 
 <p>
-  <strong>Web</strong><br>
+  <strong>Backend</strong><br>
+  <img src="assets/stack/python.svg?v=classic" alt="Python" width="81" height="24" />
+  <img src="assets/stack/flask.svg?v=classic" alt="Flask" width="69" height="24" />
+  <img src="assets/stack/pydantic.svg?v=classic" alt="Pydantic" width="90" height="24" />
+  <img src="assets/stack/sqlalchemy.svg?v=classic" alt="SQLAlchemy" width="117" height="24" />
+  <img src="assets/stack/node.svg?v=classic" alt="Node.js" width="83" height="24" />
+</p>
+
+<p>
+  <strong>Frontend</strong><br>
   <img src="assets/stack/typescript.svg?v=classic" alt="TypeScript" width="105" height="24" />
   <img src="assets/stack/vue.svg?v=classic" alt="Vue.js" width="76" height="24" />
   <img src="assets/stack/react.svg?v=classic" alt="React" width="71" height="24" />
-  <img src="assets/stack/node.svg?v=classic" alt="Node.js" width="83" height="24" />
 </p>
+
+<details>
+  <summary>其他开发经验与工具</summary>
 
 <p>
   <strong>Native &amp; Tooling</strong><br>
@@ -50,9 +54,6 @@
   <img src="assets/stack/git.svg?v=classic" alt="Git" width="52" height="24" />
   <img src="assets/stack/vite.svg?v=classic" alt="Vite" width="59" height="24" />
 </p>
-
-<details>
-  <summary>更多前端技术</summary>
 
 HTML5 / CSS3 / JavaScript / Express / Koa / Webpack
 

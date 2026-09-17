@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="144" viewBox="0 0 256 144" role="img" aria-labelledby="title desc">
+  <title id="title">J.Tide — JT tidal monogram</title>
+  <desc id="desc">The J hook and T stem share a flowing tidal crossbar, drawn specifically for J.Tide.</desc>
+  <g fill="none" stroke="#9fc8b4" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M20 38H80C106 38 110 22 134 22S174 54 198 54S222 38 236 38"/>
+      <path d="M80 38V84C80 105 67 118 48 118C34 118 25 113 18 104"/>
+      <path d="M162 38V118"/>
+  </g>
+</svg>

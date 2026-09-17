@@ -1,12 +1,12 @@
 # Profile assets
 
-The current header uses `profile-header.svg` at 1600 x 176 and `profile-header-mobile.svg` at 800 x 196 below 600 pixels. Both have a 24-pixel corner radius, use the contribution card's `#080b0f` background and `#9fc8b4` accent, and render text with system fonts. Seven low-contrast tidal contour lines decorate the right side. The desktop name and role share one line; the mobile layout stacks them for readability. Earlier banner and intro assets are retained as design references.
+The current header uses `profile-header.svg` at 1600 x 176 and `profile-header-mobile.svg` at 800 x 196 below 600 pixels. Both have a 24-pixel corner radius, use the contribution card's `#080b0f` background and `#9fc8b4` accent, and render text with system fonts. The custom `jt-monogram.svg` decorates the right side: the J hook and T stem share one flowing tidal crossbar. This editable vector mark is drawn specifically for J.Tide, with the same path geometry embedded in each banner so it renders reliably as a GitHub image. The desktop name and “Embracing AI, Embracing Change” tagline share one line; the mobile layout stacks them for readability. Earlier banner and intro assets are retained as design references.
 
 ## Technology badges
 
 The local SVG badges in `stack/` are generated with Shields.io's `flat-square` style and displayed at a 24-pixel height, matching the original profile's compact rectangular badges. TypeScript, Node.js, and Git recover their original color backgrounds and white marks; Vue.js, React, and Vite recover their original dark backgrounds and colored marks. Added AI tools use the same combination of brand-color backgrounds or dark backgrounds with colored marks. Labels remain white throughout.
 
-Icon geometry comes from Simple Icons (originally obtained through Shields.io); the OpenAI mark comes from Simple Icons v13, and the Weaviate mark comes from the logo published on its official site. Tool Calling and Embeddings are unbranded capability labels and use a neutral gray.
+Icon geometry comes from Simple Icons (originally obtained through Shields.io); the OpenAI mark comes from Simple Icons v13, and the Weaviate mark comes from the logo published on its official site. The visible stack is ordered AI & Agents, Backend, then Frontend. Tool Calling, RAG, and Embeddings appear as a secondary capability line rather than competing with product logos. Native development and general tooling are preserved in a collapsible section. Earlier Tool Calling and Embeddings badge files remain as design references.
 
 Palette reference: [Simple Icons data](https://github.com/simple-icons/simple-icons/blob/develop/data/simple-icons.json). Original source links are listed below. The Git mark is attributed to its designers under CC BY 3.0; Vue's artwork retains its upstream CC BY-NC-SA 4.0 license. All marks identify the technologies used in the profile.
 
