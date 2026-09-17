@@ -45,9 +45,9 @@ async function main() {
   const githubToken = process.env.GITHUB_TOKEN;
   if (!username || !githubToken) throw new Error("GITHUB_USERNAME and GITHUB_TOKEN are required");
 
-  const end = new Intl.DateTimeFormat("en-CA", {
-    timeZone: "Asia/Shanghai", year: "numeric", month: "2-digit", day: "2-digit",
-  }).format(new Date());
+  // GitHub's default contribution calendar ends on the current UTC date.
+  // Shanghai's next day is not available during 16:00–23:59 UTC.
+  const end = new Date().toISOString().slice(0, 10);
   const cells = selectRecentDays(
     await getGithubUserContribution(username, { githubToken }), end,
   );
