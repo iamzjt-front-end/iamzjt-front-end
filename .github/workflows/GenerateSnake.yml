@@ -1,0 +1,61 @@
+name: Generate-Snake
+
+"on":
+  schedule:
+    - cron: "17 4 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/GenerateSnake.yml
+      - scripts/style-snake.py
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-snake
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out source
+        uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10
+        with:
+          path: source
+          persist-credentials: false
+
+      - name: Generate dark contribution snake
+        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          outputs: |
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: Add dark card background
+        run: python3 source/scripts/style-snake.py dist/github-contribution-grid-snake-dark.svg dist/github-contribution-grid-snake.svg
+
+      - name: Check out generated images
+        uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10
+        with:
+          ref: snake
+          path: snake-output
+
+      - name: Publish updated images
+        shell: bash
+        run: |
+          cp dist/github-contribution-grid-snake.svg dist/github-contribution-grid-snake-dark.svg snake-output/
+          cd snake-output
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add github-contribution-grid-snake.svg github-contribution-grid-snake-dark.svg
+          if git diff --cached --quiet; then
+            echo "Contribution images are already up to date."
+            exit 0
+          fi
+          git commit -m "chore: update contribution snake"
+          git push origin HEAD:snake

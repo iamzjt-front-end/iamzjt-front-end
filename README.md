@@ -34,9 +34,8 @@
 <br><br>
 
 #  📈 Github Statistics
-<!-- GitHub数据统计 -->
-<!-- profile-3d-contrib -->
+<!-- Contribution snake, generated daily from this account's activity. -->
 <div align="center">
-  <img src="https://github.com/iamzjt-front-end/iamzjt-front-end/blob/main/profile-3d-contrib/profile-night-rainbow.svg" width="100%"/>
+  <img src="https://raw.githubusercontent.com/j-tide/j-tide/snake/github-contribution-grid-snake.svg" alt="J.Tide 的 GitHub 贡献贪吃蛇" width="100%" />
 </div>
 <br>
