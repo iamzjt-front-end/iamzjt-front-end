@@ -74,6 +74,11 @@ def link(kind, identifier, title):
     return f'<a href="https://juejin.cn/{kind}/{identifier}">{title}</a>'
 
 
+def metric(icon, label, value):
+    return (f'<img src="assets/writing/{icon}.svg" width="14" height="14" '
+            f'alt="{label}" title="{label}" />&nbsp;{number(value):,}')
+
+
 def render(user, articles, columns):
     if str(user["user_id"]) != USER_ID:
         raise ValueError("Unexpected Juejin user")
@@ -104,7 +109,7 @@ def render(user, articles, columns):
         number(a["view_count"]), number(a["ctime"]), str(a["article_id"])
     ), reverse=True)[:3]
     latest_columns = sorted(unique_columns.values(), key=lambda c: number(c["column"]["ctime"]), reverse=True)[:3]
-    lines = [f"在掘金写作 · **{count} 篇文章** · **👀 {views:,}**", ""]
+    lines = [f"在掘金写作 · **{count} 篇文章** · **{views:,} 次阅读**", ""]
     if latest_columns:
         lines += [f"**最新专栏** · [全部专栏 ↗](https://juejin.cn/user/{USER_ID}/columns)", ""]
         for item in latest_columns:
@@ -117,7 +122,7 @@ def render(user, articles, columns):
             source = (' · <a href="https://github.com/j-tide/zjt-mini-vue3">配套源码 ↗</a>'
                       if str(column["column_id"]) == "7168612212133593095" else "")
             lines.append(f'- {link("column", column["column_id"], version["title"])}'
-                         f' · {total} 篇 · 👀 {column_views:,}{source}')
+                         f' · {total} 篇 · {metric("eye", "文章累计阅读", column_views)}{source}')
         lines.append("")
     for heading, selection in [("最新文章", latest_articles), ("热门文章 · 阅读量 Top 3", popular_articles)]:
         if not selection:
@@ -126,7 +131,8 @@ def render(user, articles, columns):
         lines += [f"**{heading}**{more}", ""]
         for article in selection:
             lines.append(f'- {link("post", article["article_id"], article["title"])}'
-                         f' · 👀 {number(article["view_count"]):,} · 👍 {number(article["digg_count"]):,}')
+                         f' · {metric("eye", "阅读", article["view_count"])}'
+                         f' · {metric("thumbsup", "点赞", article["digg_count"])}')
         lines.append("")
     return "\n".join(lines).rstrip()
 

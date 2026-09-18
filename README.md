@@ -12,25 +12,25 @@
 ## Writing
 
 <!-- writing:start -->
-在掘金写作 · **24 篇文章** · **👀 23,650**
+在掘金写作 · **24 篇文章** · **23,650 次阅读**
 
 **最新专栏** · [全部专栏 ↗](https://juejin.cn/user/958429872532632/columns)
 
-- <a href="https://juejin.cn/column/7686674237757063206">AI Agent 解读与实战</a> · 0 篇 · 👀 0
-- <a href="https://juejin.cn/column/7686394441277259822">拆开 DeepSeek Harness</a> · 0 篇 · 👀 0
-- <a href="https://juejin.cn/column/7686472562230231050">Agent 系统工程</a> · 1 篇 · 👀 4
+- <a href="https://juejin.cn/column/7686674237757063206">AI Agent 解读与实战</a> · 0 篇 · <img src="assets/writing/eye.svg" width="14" height="14" alt="文章累计阅读" title="文章累计阅读" />&nbsp;0
+- <a href="https://juejin.cn/column/7686394441277259822">拆开 DeepSeek Harness</a> · 0 篇 · <img src="assets/writing/eye.svg" width="14" height="14" alt="文章累计阅读" title="文章累计阅读" />&nbsp;0
+- <a href="https://juejin.cn/column/7686472562230231050">Agent 系统工程</a> · 1 篇 · <img src="assets/writing/eye.svg" width="14" height="14" alt="文章累计阅读" title="文章累计阅读" />&nbsp;4
 
 **最新文章** · [全部文章 ↗](https://juejin.cn/user/958429872532632/posts?sort=newest)
 
-- <a href="https://juejin.cn/post/7686562995333595146">Agent 系统工程 01｜模型之外，Harness 到底该负责什么？</a> · 👀 4 · 👍 1
-- <a href="https://juejin.cn/post/7592887786967285796">拒绝做 AI 的“饲养员” ❌：前端程序员在 AI 时代的生存与进化指南 🚀</a> · 👀 5,022 · 👍 54
-- <a href="https://juejin.cn/post/7196690584286462008">17_实现相对完善的effect</a> · 👀 895 · 👍 8
+- <a href="https://juejin.cn/post/7686562995333595146">Agent 系统工程 01｜模型之外，Harness 到底该负责什么？</a> · <img src="assets/writing/eye.svg" width="14" height="14" alt="阅读" title="阅读" />&nbsp;4 · <img src="assets/writing/thumbsup.svg" width="14" height="14" alt="点赞" title="点赞" />&nbsp;1
+- <a href="https://juejin.cn/post/7592887786967285796">拒绝做 AI 的“饲养员” ❌：前端程序员在 AI 时代的生存与进化指南 🚀</a> · <img src="assets/writing/eye.svg" width="14" height="14" alt="阅读" title="阅读" />&nbsp;5,022 · <img src="assets/writing/thumbsup.svg" width="14" height="14" alt="点赞" title="点赞" />&nbsp;54
+- <a href="https://juejin.cn/post/7196690584286462008">17_实现相对完善的effect</a> · <img src="assets/writing/eye.svg" width="14" height="14" alt="阅读" title="阅读" />&nbsp;895 · <img src="assets/writing/thumbsup.svg" width="14" height="14" alt="点赞" title="点赞" />&nbsp;8
 
 **热门文章 · 阅读量 Top 3**
 
-- <a href="https://juejin.cn/post/7592887786967285796">拒绝做 AI 的“饲养员” ❌：前端程序员在 AI 时代的生存与进化指南 🚀</a> · 👀 5,022 · 👍 54
-- <a href="https://juejin.cn/post/7045273126426394637">无妨无妨，来日方长，2021年终总结</a> · 👀 2,943 · 👍 35
-- <a href="https://juejin.cn/post/7184615120708829221">身处井隅，心向璀璨，2022年终总结</a> · 👀 2,792 · 👍 44
+- <a href="https://juejin.cn/post/7592887786967285796">拒绝做 AI 的“饲养员” ❌：前端程序员在 AI 时代的生存与进化指南 🚀</a> · <img src="assets/writing/eye.svg" width="14" height="14" alt="阅读" title="阅读" />&nbsp;5,022 · <img src="assets/writing/thumbsup.svg" width="14" height="14" alt="点赞" title="点赞" />&nbsp;54
+- <a href="https://juejin.cn/post/7045273126426394637">无妨无妨，来日方长，2021年终总结</a> · <img src="assets/writing/eye.svg" width="14" height="14" alt="阅读" title="阅读" />&nbsp;2,943 · <img src="assets/writing/thumbsup.svg" width="14" height="14" alt="点赞" title="点赞" />&nbsp;35
+- <a href="https://juejin.cn/post/7184615120708829221">身处井隅，心向璀璨，2022年终总结</a> · <img src="assets/writing/eye.svg" width="14" height="14" alt="阅读" title="阅读" />&nbsp;2,792 · <img src="assets/writing/thumbsup.svg" width="14" height="14" alt="点赞" title="点赞" />&nbsp;44
 <!-- writing:end -->
 
 ## Selected Projects

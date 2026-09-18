@@ -29,8 +29,8 @@ class WritingTests(unittest.TestCase):
         self.assertNotIn('/post/1', result)
         self.assertLess(result.index('/column/4'), result.index('/column/3'))
         self.assertNotIn('/column/1', result)
-        self.assertIn('👀 40', result)
-        self.assertIn('👀 12,345', result)
+        self.assertIn('title="文章累计阅读" />&nbsp;40', result)
+        self.assertIn('12,345 次阅读', result)
         self.assertIn('&lt;script&gt; &amp;', result)
         self.assertNotIn('<script>', result)
 
@@ -45,7 +45,8 @@ class WritingTests(unittest.TestCase):
         self.assertNotIn('/post/2', popular)
         self.assertNotIn('/post/1', recent)
         self.assertLess(recent.index('/post/4'), recent.index('/post/3'))
-        self.assertIn('👀 999 · 👍 1', popular)
+        self.assertIn('title="阅读" />&nbsp;999', popular)
+        self.assertIn('title="点赞" />&nbsp;1', popular)
         self.assertNotIn('<br>', popular)
         self.assertNotRegex(recent + popular, r'\d{4}-\d{2}-\d{2}')
         self.assertEqual(result.count('/post/4'), 2)
@@ -57,7 +58,7 @@ class WritingTests(unittest.TestCase):
                   "column_version": {"title": "Empty"}}
         result = writing.render(user, [article("1", 1)], [column])
         self.assertIn('/column/9', result)
-        self.assertIn('0 篇 · 👀 0', result)
+        self.assertIn('title="文章累计阅读" />&nbsp;0', result)
         column["column"]["article_cnt"] = 1
         for ids in [[], ["2"], ["1", "2"]]:
             column["column"]["content_sort_ids"] = ids
@@ -65,7 +66,7 @@ class WritingTests(unittest.TestCase):
                 writing.render(user, [article("1", 1)], [column])
         column["column"]["content_sort_ids"] = ["1", "1"]
         result = writing.render(user, [article("1", 1)], [column])
-        self.assertIn('👀 10', result)
+        self.assertIn('title="文章累计阅读" />&nbsp;10', result)
 
     def test_only_marked_region_changes_and_is_idempotent(self):
         original = f"Hero\n{writing.START}\nold\n{writing.END}\nProjects"

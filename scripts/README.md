@@ -12,11 +12,11 @@ region in the root README: article and view totals, three latest columns by
 creation date, the top three articles by views, and three latest articles by
 publication date. Popular and latest lists are ranked independently and can
 overlap. Latest articles appear before popular articles. Each article shows views
-and likes inline after its title as 👀 and 👍; publication dates are used for sorting only.
+and likes inline after its title with neutral gray eye/thumbsup icons; publication dates are used for sorting only.
 Compact lists keep metadata inline and put archive links beside group labels.
 Newly created empty columns are included with zero articles and zero cumulative reads.
 Column reads are the sum of current views of all unique member articles, shown
-with 👀; this is not column-page traffic or unique visitors. Incomplete
+with the eye icon (alt/title: “文章累计阅读”); this is not column-page traffic or unique visitors. Incomplete
 membership aborts the update rather than publishing a partial total. The Vue
 series retains its source link inline. Followers are not displayed.
 
