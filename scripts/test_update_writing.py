@@ -12,7 +12,7 @@ spec.loader.exec_module(writing)
 def article(identifier, timestamp, title="Article"):
     return {"article_id": identifier, "article_info": {
         "article_id": identifier, "user_id": writing.USER_ID,
-        "ctime": timestamp, "title": title,
+        "ctime": timestamp, "title": title, "view_count": int(identifier) * 10, "digg_count": 1,
     }}
 
 
@@ -22,17 +22,45 @@ class WritingTests(unittest.TestCase):
         articles[1]["article_info"]["title"] = '<script> & [x](bad)\nnext'
         user = {"user_id": writing.USER_ID, "post_article_count": 4, "got_view_count": 12345}
         columns = [{"column": {"column_id": str(i), "user_id": writing.USER_ID,
-                    "ctime": i, "article_cnt": 0}, "column_version": {"title": f"Series {i}"}}
+                    "ctime": i, "article_cnt": 1, "content_sort_ids": [str(i)]}, "column_version": {"title": f"Series {i}"}}
                    for i in [1, 4, 2, 3]]
         result = writing.render(user, articles, columns)
         self.assertLess(result.index('/post/4'), result.index('/post/3'))
         self.assertNotIn('/post/1', result)
         self.assertLess(result.index('/column/4'), result.index('/column/3'))
         self.assertNotIn('/column/1', result)
-        self.assertIn('新建专栏', result)
+        self.assertIn('文章累计阅读 40', result)
         self.assertIn('12,345 次阅读', result)
         self.assertIn('&lt;script&gt; &amp;', result)
         self.assertNotIn('<script>', result)
+
+    def test_popular_and_recent_are_independent_with_overlap(self):
+        articles = [article(str(i), 1700000000 + i) for i in [1, 2, 3, 4]]
+        articles[0]["article_info"]["view_count"] = 999
+        user = {"user_id": writing.USER_ID, "post_article_count": 4, "got_view_count": 12345}
+        result = writing.render(user, articles, [])
+        popular, recent = result.split("### 最新文章")
+        self.assertLess(popular.index('/post/1'), popular.index('/post/4'))
+        self.assertNotIn('/post/2', popular)
+        self.assertNotIn('/post/1', recent)
+        self.assertLess(recent.index('/post/4'), recent.index('/post/3'))
+        self.assertIn('阅读 999 · 点赞 1', popular)
+        self.assertEqual(result.count('/post/4'), 2)
+
+    def test_empty_columns_hidden_and_incomplete_membership_rejected(self):
+        user = {"user_id": writing.USER_ID, "post_article_count": 1, "got_view_count": 10}
+        column = {"column": {"column_id": "9", "user_id": writing.USER_ID,
+                  "ctime": 1, "article_cnt": 0, "content_sort_ids": []},
+                  "column_version": {"title": "Empty"}}
+        self.assertNotIn('/column/9', writing.render(user, [article("1", 1)], [column]))
+        column["column"]["article_cnt"] = 1
+        for ids in [[], ["2"], ["1", "2"]]:
+            column["column"]["content_sort_ids"] = ids
+            with self.assertRaises(ValueError):
+                writing.render(user, [article("1", 1)], [column])
+        column["column"]["content_sort_ids"] = ["1", "1"]
+        result = writing.render(user, [article("1", 1)], [column])
+        self.assertIn('文章累计阅读 10', result)
 
     def test_only_marked_region_changes_and_is_idempotent(self):
         original = f"Hero\n{writing.START}\nold\n{writing.END}\nProjects"

@@ -88,6 +88,8 @@ def render(user, articles, columns):
         if str(article["user_id"]) != USER_ID:
             raise ValueError("Unexpected article author")
         number(article["ctime"])
+        number(article["view_count"])
+        number(article["digg_count"])
         link("post", article["article_id"], article["title"])
     unique_columns = {}
     for item in columns:
@@ -100,21 +102,35 @@ def render(user, articles, columns):
         unique_columns[str(column["column_id"])] = item
 
     latest_articles = sorted(article_by_id.values(), key=lambda a: number(a["ctime"]), reverse=True)[:3]
-    latest_columns = sorted(unique_columns.values(), key=lambda c: number(c["column"]["ctime"]), reverse=True)[:3]
+    popular_articles = sorted(article_by_id.values(), key=lambda a: (
+        number(a["view_count"]), number(a["ctime"]), str(a["article_id"])
+    ), reverse=True)[:3]
+    published_columns = [c for c in unique_columns.values() if number(c["column"]["article_cnt"]) > 0]
+    latest_columns = sorted(published_columns, key=lambda c: number(c["column"]["ctime"]), reverse=True)[:3]
     lines = [f"在掘金记录技术实践：**{count} 篇文章** · **{views:,} 次阅读**。", ""]
     if latest_columns:
-        lines += ["**最新专栏**", ""]
+        lines += ["### 专栏", ""]
         for item in latest_columns:
             column, version = item["column"], item["column_version"]
             total = number(column["article_cnt"])
-            label = f"{total} 篇" if total else "新建专栏"
-            lines.append(f'- {link("column", column["column_id"], version["title"])} · {label}')
+            ids = set(str(i) for i in column["content_sort_ids"])
+            if len(ids) != total or not ids.issubset(article_by_id):
+                raise ValueError("Column membership is incomplete; cannot calculate cumulative reads")
+            column_views = sum(number(article_by_id[i]["view_count"]) for i in ids)
+            source = (' · <a href="https://github.com/j-tide/zjt-mini-vue3">配套源码 ↗</a>'
+                      if str(column["column_id"]) == "7168612212133593095" else "")
+            lines.append(f'- <strong>{link("column", column["column_id"], version["title"])}</strong><br>'
+                         f'<sub>{total} 篇 · 文章累计阅读 {column_views:,}{source}</sub>')
+        lines += ["", f"[全部专栏 ↗](https://juejin.cn/user/{USER_ID}/columns)"]
         lines.append("")
-    if latest_articles:
-        lines += ["**最近文章**", ""]
-        for article in latest_articles:
+    for heading, selection in [("热门文章 · 阅读量 Top 3", popular_articles), ("最新文章", latest_articles)]:
+        if not selection:
+            continue
+        lines += [f"### {heading}", ""]
+        for article in selection:
             date = datetime.fromtimestamp(number(article["ctime"]), ZoneInfo("Asia/Shanghai")).strftime("%Y-%m-%d")
-            lines.append(f'- {date} · {link("post", article["article_id"], article["title"])}')
+            lines.append(f'- {link("post", article["article_id"], article["title"])}<br>'
+                         f'<sub>{date} · 阅读 {number(article["view_count"]):,} · 点赞 {number(article["digg_count"]):,}</sub>')
         lines.append("")
     return "\n".join(lines).rstrip()
 

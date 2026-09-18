@@ -8,10 +8,14 @@ may be delayed by GitHub.
 
 `python3 scripts/update-writing.py` fetches the public Juejin profile, all article
 pages, and all column pages. It updates only the `writing:start` / `writing:end`
-region in the root README: article and view totals, the three newest columns by
-creation date, and the three newest articles by publication date. Empty new
-columns are labeled “新建专栏”; followers are not displayed. The curated Vue series
-and source link remain outside the generated region.
+region in the root README: article and view totals, three published columns by
+creation date, the top three articles by views, and three latest articles by
+publication date. Popular and latest lists are ranked independently and can
+overlap. Each article shows date, views, and likes. Empty columns are omitted.
+Column reads are the sum of current views of all unique member articles, labeled
+“文章累计阅读”; this is not column-page traffic or unique visitors. Incomplete
+membership aborts the update rather than publishing a partial total. The Vue
+series retains its source link inline. Followers are not displayed.
 
 No Juejin cookie or secret is needed. Requests retry three times. If the API fails
 or returns incomplete data, the README is not written and the Writing job fails
