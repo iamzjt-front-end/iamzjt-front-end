@@ -2,7 +2,7 @@ name: Update profile visuals
 
 "on":
   schedule:
-    - cron: "17 4 * * *"
+    - cron: "17 0,12 * * *" # 08:17 and 20:17 Asia/Shanghai
   workflow_dispatch:
   push:
     branches: [main]

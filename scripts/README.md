@@ -1,7 +1,7 @@
 # Profile generators
 
-`Update profile visuals` runs daily at 04:17 UTC (12:17 Asia/Shanghai), on relevant
-script changes, and through the Actions **Run workflow** button. Scheduled runs
+`Update profile visuals` runs twice daily at 00:17 and 12:17 UTC (08:17 and 20:17
+Asia/Shanghai), on relevant script changes, and through the Actions **Run workflow** button. Scheduled runs
 may be delayed by GitHub.
 
 ## Writing
