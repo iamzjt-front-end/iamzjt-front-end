@@ -39,7 +39,8 @@ class WritingTests(unittest.TestCase):
         articles[0]["article_info"]["view_count"] = 999
         user = {"user_id": writing.USER_ID, "post_article_count": 4, "got_view_count": 12345}
         result = writing.render(user, articles, [])
-        popular, recent = result.split("### 最新文章")
+        self.assertLess(result.index("### 最新文章"), result.index("### 热门文章"))
+        recent, popular = result.split("### 热门文章")
         self.assertLess(popular.index('/post/1'), popular.index('/post/4'))
         self.assertNotIn('/post/2', popular)
         self.assertNotIn('/post/1', recent)
@@ -47,12 +48,14 @@ class WritingTests(unittest.TestCase):
         self.assertIn('阅读 999 · 点赞 1', popular)
         self.assertEqual(result.count('/post/4'), 2)
 
-    def test_empty_columns_hidden_and_incomplete_membership_rejected(self):
+    def test_empty_columns_included_and_incomplete_membership_rejected(self):
         user = {"user_id": writing.USER_ID, "post_article_count": 1, "got_view_count": 10}
         column = {"column": {"column_id": "9", "user_id": writing.USER_ID,
                   "ctime": 1, "article_cnt": 0, "content_sort_ids": []},
                   "column_version": {"title": "Empty"}}
-        self.assertNotIn('/column/9', writing.render(user, [article("1", 1)], [column]))
+        result = writing.render(user, [article("1", 1)], [column])
+        self.assertIn('/column/9', result)
+        self.assertIn('0 篇 · 文章累计阅读 0', result)
         column["column"]["article_cnt"] = 1
         for ids in [[], ["2"], ["1", "2"]]:
             column["column"]["content_sort_ids"] = ids

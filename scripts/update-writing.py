@@ -105,11 +105,10 @@ def render(user, articles, columns):
     popular_articles = sorted(article_by_id.values(), key=lambda a: (
         number(a["view_count"]), number(a["ctime"]), str(a["article_id"])
     ), reverse=True)[:3]
-    published_columns = [c for c in unique_columns.values() if number(c["column"]["article_cnt"]) > 0]
-    latest_columns = sorted(published_columns, key=lambda c: number(c["column"]["ctime"]), reverse=True)[:3]
+    latest_columns = sorted(unique_columns.values(), key=lambda c: number(c["column"]["ctime"]), reverse=True)[:3]
     lines = [f"在掘金记录技术实践：**{count} 篇文章** · **{views:,} 次阅读**。", ""]
     if latest_columns:
-        lines += ["### 专栏", ""]
+        lines += ["### 最新专栏", ""]
         for item in latest_columns:
             column, version = item["column"], item["column_version"]
             total = number(column["article_cnt"])
@@ -123,7 +122,7 @@ def render(user, articles, columns):
                          f'<sub>{total} 篇 · 文章累计阅读 {column_views:,}{source}</sub>')
         lines += ["", f"[全部专栏 ↗](https://juejin.cn/user/{USER_ID}/columns)"]
         lines.append("")
-    for heading, selection in [("热门文章 · 阅读量 Top 3", popular_articles), ("最新文章", latest_articles)]:
+    for heading, selection in [("最新文章", latest_articles), ("热门文章 · 阅读量 Top 3", popular_articles)]:
         if not selection:
             continue
         lines += [f"### {heading}", ""]
