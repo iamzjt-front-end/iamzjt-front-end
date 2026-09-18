@@ -11,8 +11,10 @@ pages, and all column pages. It updates only the `writing:start` / `writing:end`
 region in the root README: article and view totals, three latest columns by
 creation date, the top three articles by views, and three latest articles by
 publication date. Popular and latest lists are ranked independently and can
-overlap. Each article shows date, views, and likes. Newly created empty columns
-are included with zero articles and zero cumulative reads.
+overlap. Latest articles appear before popular articles. Each article shows views
+and likes inline after its title; publication dates are used for sorting only.
+Compact lists keep metadata inline and put archive links beside group labels.
+Newly created empty columns are included with zero articles and zero cumulative reads.
 Column reads are the sum of current views of all unique member articles, labeled
 “文章累计阅读”; this is not column-page traffic or unique visitors. Incomplete
 membership aborts the update rather than publishing a partial total. The Vue

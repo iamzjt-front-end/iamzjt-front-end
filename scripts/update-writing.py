@@ -6,14 +6,12 @@ README untouched and fails the job visibly; the next scheduled run retries.
 """
 
 import argparse
-from datetime import datetime
 from html import escape
 import json
 from pathlib import Path
 import re
 import time
 from urllib.request import Request, urlopen
-from zoneinfo import ZoneInfo
 
 USER_ID = "958429872532632"
 API = "https://api.juejin.cn"
@@ -106,9 +104,9 @@ def render(user, articles, columns):
         number(a["view_count"]), number(a["ctime"]), str(a["article_id"])
     ), reverse=True)[:3]
     latest_columns = sorted(unique_columns.values(), key=lambda c: number(c["column"]["ctime"]), reverse=True)[:3]
-    lines = [f"在掘金记录技术实践：**{count} 篇文章** · **{views:,} 次阅读**。", ""]
+    lines = [f"在掘金写作 · **{count} 篇文章** · **{views:,} 次阅读**", ""]
     if latest_columns:
-        lines += ["### 最新专栏", ""]
+        lines += [f"**最新专栏** · [全部专栏 ↗](https://juejin.cn/user/{USER_ID}/columns)", ""]
         for item in latest_columns:
             column, version = item["column"], item["column_version"]
             total = number(column["article_cnt"])
@@ -118,18 +116,17 @@ def render(user, articles, columns):
             column_views = sum(number(article_by_id[i]["view_count"]) for i in ids)
             source = (' · <a href="https://github.com/j-tide/zjt-mini-vue3">配套源码 ↗</a>'
                       if str(column["column_id"]) == "7168612212133593095" else "")
-            lines.append(f'- <strong>{link("column", column["column_id"], version["title"])}</strong><br>'
-                         f'<sub>{total} 篇 · 文章累计阅读 {column_views:,}{source}</sub>')
-        lines += ["", f"[全部专栏 ↗](https://juejin.cn/user/{USER_ID}/columns)"]
+            lines.append(f'- {link("column", column["column_id"], version["title"])}'
+                         f' · {total} 篇 · 文章累计阅读 {column_views:,}{source}')
         lines.append("")
     for heading, selection in [("最新文章", latest_articles), ("热门文章 · 阅读量 Top 3", popular_articles)]:
         if not selection:
             continue
-        lines += [f"### {heading}", ""]
+        more = f" · [全部文章 ↗](https://juejin.cn/user/{USER_ID}/posts?sort=newest)" if selection is latest_articles else ""
+        lines += [f"**{heading}**{more}", ""]
         for article in selection:
-            date = datetime.fromtimestamp(number(article["ctime"]), ZoneInfo("Asia/Shanghai")).strftime("%Y-%m-%d")
-            lines.append(f'- {link("post", article["article_id"], article["title"])}<br>'
-                         f'<sub>{date} · 阅读 {number(article["view_count"]):,} · 点赞 {number(article["digg_count"]):,}</sub>')
+            lines.append(f'- {link("post", article["article_id"], article["title"])}'
+                         f' · 阅读 {number(article["view_count"]):,} · 点赞 {number(article["digg_count"]):,}')
         lines.append("")
     return "\n".join(lines).rstrip()
 

@@ -12,30 +12,26 @@
 ## Writing
 
 <!-- writing:start -->
-在掘金记录技术实践：**24 篇文章** · **23,650 次阅读**。
+在掘金写作 · **24 篇文章** · **23,650 次阅读**
 
-### 最新专栏
+**最新专栏** · [全部专栏 ↗](https://juejin.cn/user/958429872532632/columns)
 
-- <strong><a href="https://juejin.cn/column/7686674237757063206">AI Agent 解读与实战</a></strong><br><sub>0 篇 · 文章累计阅读 0</sub>
-- <strong><a href="https://juejin.cn/column/7686394441277259822">拆开 DeepSeek Harness</a></strong><br><sub>0 篇 · 文章累计阅读 0</sub>
-- <strong><a href="https://juejin.cn/column/7686472562230231050">Agent 系统工程</a></strong><br><sub>1 篇 · 文章累计阅读 4</sub>
+- <a href="https://juejin.cn/column/7686674237757063206">AI Agent 解读与实战</a> · 0 篇 · 文章累计阅读 0
+- <a href="https://juejin.cn/column/7686394441277259822">拆开 DeepSeek Harness</a> · 0 篇 · 文章累计阅读 0
+- <a href="https://juejin.cn/column/7686472562230231050">Agent 系统工程</a> · 1 篇 · 文章累计阅读 4
 
-[全部专栏 ↗](https://juejin.cn/user/958429872532632/columns)
+**最新文章** · [全部文章 ↗](https://juejin.cn/user/958429872532632/posts?sort=newest)
 
-### 最新文章
+- <a href="https://juejin.cn/post/7686562995333595146">Agent 系统工程 01｜模型之外，Harness 到底该负责什么？</a> · 阅读 4 · 点赞 1
+- <a href="https://juejin.cn/post/7592887786967285796">拒绝做 AI 的“饲养员” ❌：前端程序员在 AI 时代的生存与进化指南 🚀</a> · 阅读 5,022 · 点赞 54
+- <a href="https://juejin.cn/post/7196690584286462008">17_实现相对完善的effect</a> · 阅读 895 · 点赞 8
 
-- <a href="https://juejin.cn/post/7686562995333595146">Agent 系统工程 01｜模型之外，Harness 到底该负责什么？</a><br><sub>2026-09-18 · 阅读 4 · 点赞 1</sub>
-- <a href="https://juejin.cn/post/7592887786967285796">拒绝做 AI 的“饲养员” ❌：前端程序员在 AI 时代的生存与进化指南 🚀</a><br><sub>2026-01-09 · 阅读 5,022 · 点赞 54</sub>
-- <a href="https://juejin.cn/post/7196690584286462008">17_实现相对完善的effect</a><br><sub>2023-02-06 · 阅读 895 · 点赞 8</sub>
+**热门文章 · 阅读量 Top 3**
 
-### 热门文章 · 阅读量 Top 3
-
-- <a href="https://juejin.cn/post/7592887786967285796">拒绝做 AI 的“饲养员” ❌：前端程序员在 AI 时代的生存与进化指南 🚀</a><br><sub>2026-01-09 · 阅读 5,022 · 点赞 54</sub>
-- <a href="https://juejin.cn/post/7045273126426394637">无妨无妨，来日方长，2021年终总结</a><br><sub>2021-12-24 · 阅读 2,943 · 点赞 35</sub>
-- <a href="https://juejin.cn/post/7184615120708829221">身处井隅，心向璀璨，2022年终总结</a><br><sub>2023-01-04 · 阅读 2,792 · 点赞 44</sub>
+- <a href="https://juejin.cn/post/7592887786967285796">拒绝做 AI 的“饲养员” ❌：前端程序员在 AI 时代的生存与进化指南 🚀</a> · 阅读 5,022 · 点赞 54
+- <a href="https://juejin.cn/post/7045273126426394637">无妨无妨，来日方长，2021年终总结</a> · 阅读 2,943 · 点赞 35
+- <a href="https://juejin.cn/post/7184615120708829221">身处井隅，心向璀璨，2022年终总结</a> · 阅读 2,792 · 点赞 44
 <!-- writing:end -->
-
-[查看全部文章 ↗](https://juejin.cn/user/958429872532632/posts?sort=newest)
 
 ## Selected Projects
 
