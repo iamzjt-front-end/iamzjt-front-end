@@ -7,7 +7,20 @@
   </picture>
 </p>
 
-**AI Agent 开发工程师** · [在掘金写技术文章 ↗](https://juejin.cn/user/958429872532632/posts?sort=newest)
+**AI Agent 开发工程师**
+
+## Writing
+
+在掘金记录技术实践：**23 篇文章** · **2.3 万+ 阅读**。
+
+**[前端程序员在 AI 时代的生存与进化指南 ↗](https://juejin.cn/post/7592887786967285796)**<br>2026 · AI 时代的开发者思考
+
+**[Vue 3 源码实现系列 ↗](https://juejin.cn/column/7168612212133593095)**<br>2022–2023 · 18 篇实现笔记，配套 [zjt-mini-vue3 源码](https://github.com/j-tide/zjt-mini-vue3)<br>[effect 与依赖收集](https://juejin.cn/post/7170480677614256158) · [ref](https://juejin.cn/post/7181710097863671864) · [computed](https://juejin.cn/post/7189847454152392760)
+
+**[这次一定，弄懂 Promise！ ↗](https://juejin.cn/post/7040072113134239758)**<br>2021 · JavaScript 异步学习笔记
+
+[查看全部文章 ↗](https://juejin.cn/user/958429872532632/posts?sort=newest)
+<!-- Writing statistics verified against the public Juejin API on 2026-09-18. -->
 
 ## Selected Projects
 
