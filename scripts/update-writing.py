@@ -104,7 +104,7 @@ def render(user, articles, columns):
         number(a["view_count"]), number(a["ctime"]), str(a["article_id"])
     ), reverse=True)[:3]
     latest_columns = sorted(unique_columns.values(), key=lambda c: number(c["column"]["ctime"]), reverse=True)[:3]
-    lines = [f"在掘金写作 · **{count} 篇文章** · **{views:,} 次阅读**", ""]
+    lines = [f"在掘金写作 · **{count} 篇文章** · **👀 {views:,}**", ""]
     if latest_columns:
         lines += [f"**最新专栏** · [全部专栏 ↗](https://juejin.cn/user/{USER_ID}/columns)", ""]
         for item in latest_columns:
@@ -117,7 +117,7 @@ def render(user, articles, columns):
             source = (' · <a href="https://github.com/j-tide/zjt-mini-vue3">配套源码 ↗</a>'
                       if str(column["column_id"]) == "7168612212133593095" else "")
             lines.append(f'- {link("column", column["column_id"], version["title"])}'
-                         f' · {total} 篇 · 文章累计阅读 {column_views:,}{source}')
+                         f' · {total} 篇 · 👀 {column_views:,}{source}')
         lines.append("")
     for heading, selection in [("最新文章", latest_articles), ("热门文章 · 阅读量 Top 3", popular_articles)]:
         if not selection:
@@ -126,7 +126,7 @@ def render(user, articles, columns):
         lines += [f"**{heading}**{more}", ""]
         for article in selection:
             lines.append(f'- {link("post", article["article_id"], article["title"])}'
-                         f' · 阅读 {number(article["view_count"]):,} · 点赞 {number(article["digg_count"]):,}')
+                         f' · 👀 {number(article["view_count"]):,} · 👍 {number(article["digg_count"]):,}')
         lines.append("")
     return "\n".join(lines).rstrip()
 
