@@ -91,3 +91,32 @@ jobs:
           fi
           git commit -m "chore: update profile visuals and project stars"
           git push origin HEAD:snake
+
+  writing:
+    name: Sync latest Juejin writing
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out current profile
+        uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10
+        with:
+          ref: main
+
+      - name: Verify Writing updater
+        run: python3 -m unittest discover -s scripts -p 'test_update_writing.py'
+
+      - name: Fetch public articles, columns, and writing statistics
+        run: python3 scripts/update-writing.py
+
+      - name: Publish updated Writing section
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          if git diff --cached --quiet; then
+            echo "Writing is already up to date."
+            exit 0
+          fi
+          git commit -m "chore: sync latest Juejin writing"
+          git pull --rebase origin main
+          git push origin HEAD:main

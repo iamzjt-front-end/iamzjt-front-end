@@ -11,16 +11,25 @@
 
 ## Writing
 
-在掘金记录技术实践：**23 篇文章** · **2.3 万+ 阅读**。
+<!-- writing:start -->
+在掘金记录技术实践：**24 篇文章** · **23,649 次阅读**。
 
-**[前端程序员在 AI 时代的生存与进化指南 ↗](https://juejin.cn/post/7592887786967285796)**<br>2026 · AI 时代的开发者思考
+**最新专栏**
 
-**[Vue 3 源码实现系列 ↗](https://juejin.cn/column/7168612212133593095)**<br>2022–2023 · 18 篇实现笔记，配套 [zjt-mini-vue3 源码](https://github.com/j-tide/zjt-mini-vue3)<br>[effect 与依赖收集](https://juejin.cn/post/7170480677614256158) · [ref](https://juejin.cn/post/7181710097863671864) · [computed](https://juejin.cn/post/7189847454152392760)
+- <a href="https://juejin.cn/column/7686674237757063206">AI Agent 解读与实战</a> · 新建专栏
+- <a href="https://juejin.cn/column/7686394441277259822">拆开 DeepSeek Harness</a> · 新建专栏
+- <a href="https://juejin.cn/column/7686472562230231050">Agent 系统工程</a> · 1 篇
 
-**[这次一定，弄懂 Promise！ ↗](https://juejin.cn/post/7040072113134239758)**<br>2021 · JavaScript 异步学习笔记
+**最近文章**
+
+- 2026-09-18 · <a href="https://juejin.cn/post/7686562995333595146">Agent 系统工程 01｜模型之外，Harness 到底该负责什么？</a>
+- 2026-01-09 · <a href="https://juejin.cn/post/7592887786967285796">拒绝做 AI 的“饲养员” ❌：前端程序员在 AI 时代的生存与进化指南 🚀</a>
+- 2023-02-06 · <a href="https://juejin.cn/post/7196690584286462008">17_实现相对完善的effect</a>
+<!-- writing:end -->
+
+精选系列：[Vue 3 源码实现](https://juejin.cn/column/7168612212133593095) · [配套源码](https://github.com/j-tide/zjt-mini-vue3)
 
 [查看全部文章 ↗](https://juejin.cn/user/958429872532632/posts?sort=newest)
-<!-- Writing statistics verified against the public Juejin API on 2026-09-18. -->
 
 ## Selected Projects
 
