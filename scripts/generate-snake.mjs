@@ -9,7 +9,7 @@ import { createSvg } from "@snk/svg-creator";
 import { snake4 } from "@snk/types/__fixtures__/snake";
 
 const DAY_MS = 24 * 60 * 60 * 1000;
-const PERIOD_DAYS = 90;
+const PERIOD_DAYS = 180;
 
 // Retain real dates and weekdays, including the two partial boundary weeks.
 export function selectRecentDays(cells, end) {

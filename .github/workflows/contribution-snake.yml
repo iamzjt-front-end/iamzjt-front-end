@@ -47,7 +47,7 @@ jobs:
           npm ci --prefix scripts
           npm run build --prefix scripts
 
-      - name: Generate the latest 90 days
+      - name: Generate the latest 180 days
         working-directory: source
         env:
           GITHUB_USERNAME: ${{ github.repository_owner }}

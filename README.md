@@ -104,7 +104,7 @@
 <a name="-github-statistics"></a>
 
 ## GitHub Activity
-<!-- Rolling 90-day contribution snake, generated twice daily from this account's real activity. -->
+<!-- Rolling 180-day contribution snake, generated twice daily from this account's real activity. -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/j-tide/j-tide/snake/github-contribution-grid-snake.svg?v=90d" alt="J.Tide 最近 90 天的 GitHub 贡献贪吃蛇" width="100%" />
+  <img src="https://raw.githubusercontent.com/j-tide/j-tide/snake/github-contribution-grid-snake.svg?v=180d" alt="J.Tide 最近 180 天的 GitHub 贡献贪吃蛇" width="100%" />
 </div>

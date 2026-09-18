@@ -35,3 +35,10 @@ Run updater checks with:
 ```sh
 python3 -m unittest discover -s scripts -p 'test_update_writing.py'
 ```
+
+## Contribution snake
+
+`generate-snake.mjs` uses the latest 180 UTC calendar days, inclusive of today,
+with real weekday placement. `style-snake.py` renders that same date range,
+contribution total, and active-day count on the card. The shared workflow
+refreshes it twice daily alongside project stars and Writing.
