@@ -7,7 +7,7 @@
   </picture>
 </p>
 
-**AI Agent 开发工程师**
+从 Java 后端到前端，如今专注 **AI Agent 开发**，闲时用镜头记录生活。
 
 ## Writing
 
