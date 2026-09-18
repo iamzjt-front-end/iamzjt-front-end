@@ -7,7 +7,7 @@
   </picture>
 </p>
 
-从 Java 后端到前端，如今专注 **AI Agent 开发**，闲时用镜头记录生活。
+写过 Java，折腾过前端，现在教 **AI Agent** 干活，闲了就拿相机给世界截个图。
 
 ## Writing
 
