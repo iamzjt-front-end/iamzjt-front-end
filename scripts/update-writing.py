@@ -74,9 +74,8 @@ def link(kind, identifier, title):
     return f'<a href="https://juejin.cn/{kind}/{identifier}">{title}</a>'
 
 
-def metric(icon, label, value):
-    return (f'<img src="assets/writing/{icon}.svg" width="14" height="14" '
-            f'alt="{label}" title="{label}" />&nbsp;{number(value):,}')
+def metric(label, value):
+    return f"{label} {number(value):,}"
 
 
 def render(user, articles, columns):
@@ -122,7 +121,7 @@ def render(user, articles, columns):
             source = (' · <a href="https://github.com/j-tide/zjt-mini-vue3">配套源码 ↗</a>'
                       if str(column["column_id"]) == "7168612212133593095" else "")
             lines.append(f'- {link("column", column["column_id"], version["title"])}'
-                         f' · {total} 篇 · {metric("eye", "文章累计阅读", column_views)}{source}')
+                         f' · {total} 篇 · {metric("文章累计阅读", column_views)}{source}')
         lines.append("")
     for heading, selection in [("最新文章", latest_articles), ("热门文章 · 阅读量 Top 3", popular_articles)]:
         if not selection:
@@ -131,8 +130,8 @@ def render(user, articles, columns):
         lines += [f"**{heading}**{more}", ""]
         for article in selection:
             lines.append(f'- {link("post", article["article_id"], article["title"])}'
-                         f' · {metric("eye", "阅读", article["view_count"])}'
-                         f' · {metric("thumbsup", "点赞", article["digg_count"])}')
+                         f' · {metric("阅读", article["view_count"])}'
+                         f' · {metric("点赞", article["digg_count"])}')
         lines.append("")
     return "\n".join(lines).rstrip()
 
