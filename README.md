@@ -101,8 +101,6 @@
   <img src="assets/stack/github-actions.svg" alt="GitHub Actions" width="131" height="24" />
 </p>
 
-> <sub>人一能之，己百之；人十能之，己千之。<br>果能此道也，虽愚必明，虽柔必强。</sub>
-
 <a name="-github-statistics"></a>
 
 ## GitHub Activity
