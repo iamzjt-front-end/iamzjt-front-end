@@ -54,7 +54,6 @@
   <img src="assets/stack/openai.svg?v=classic" alt="OpenAI SDK" width="117" height="24" />
   <img src="assets/stack/deepseek.svg?v=classic" alt="DeepSeek" width="100" height="24" />
   <img src="assets/stack/mcp.svg" alt="MCP" width="62" height="24" />
-  <br>
   <img src="assets/stack/pgvector.svg" alt="pgvector" width="93" height="24" />
   <img src="assets/stack/weaviate.svg?v=classic" alt="Weaviate" width="95" height="24" />
 </p>
