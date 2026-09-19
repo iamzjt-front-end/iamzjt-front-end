@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 """Refresh only the marked Writing block from public Juejin data.
 
-No cookies or API keys are required. A failed/incomplete response leaves the
-README untouched and fails the job visibly; the next scheduled run retries.
+No cookies or API keys are required. Temporary Juejin API outages leave the
+README untouched and finish with a warning so the profile workflow stays
+healthy; the next scheduled run retries. Incomplete or invalid data still
+fails loudly before any file is written.
 """
 
 import argparse
@@ -17,24 +19,41 @@ USER_ID = "958429872532632"
 API = "https://api.juejin.cn"
 START = "<!-- writing:start -->"
 END = "<!-- writing:end -->"
+REQUEST_ATTEMPTS = 5
+
+
+class JuejinUnavailable(RuntimeError):
+    """The public Juejin API could not provide a usable response after retries."""
 
 
 def request(path, payload=None):
-    for attempt in range(3):
+    for attempt in range(REQUEST_ATTEMPTS):
         try:
             req = Request(
                 API + path,
                 data=json.dumps(payload).encode() if payload is not None else None,
-                headers={"Content-Type": "application/json", "User-Agent": "j-tide-profile/1.0"},
+                headers={
+                    "Accept": "application/json",
+                    "Content-Type": "application/json",
+                    "Origin": "https://juejin.cn",
+                    "Referer": "https://juejin.cn/",
+                    "User-Agent": "j-tide-profile/1.0",
+                },
             )
             with urlopen(req, timeout=25) as response:
                 result = json.load(response)
+            if not isinstance(result, dict):
+                raise JuejinUnavailable("Juejin returned a non-object response")
             if result.get("err_no") != 0 or result.get("data") is None:
-                raise ValueError("Juejin returned an unsuccessful response")
+                code = result.get("err_no", "unknown")
+                message = str(result.get("err_msg", "no message")).strip()
+                raise JuejinUnavailable(f"Juejin returned err_no={code}: {message}")
             return result
-        except (OSError, ValueError):
-            if attempt == 2:
-                raise
+        except (OSError, ValueError, JuejinUnavailable) as error:
+            if attempt == REQUEST_ATTEMPTS - 1:
+                raise JuejinUnavailable(
+                    f"Juejin request failed after {REQUEST_ATTEMPTS} attempts: {error}"
+                ) from error
             time.sleep(2 ** attempt)
 
 
@@ -159,7 +178,15 @@ def update(path):
     print(f"Updated Writing: {len(articles)} articles, {len(columns)} columns.")
 
 
-if __name__ == "__main__":
+def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--readme", type=Path, default=Path("README.md"))
-    update(parser.parse_args().readme)
+    try:
+        update(parser.parse_args(argv).readme)
+    except JuejinUnavailable as error:
+        print(f"::warning::Skipped Juejin writing sync: {error}")
+        print("Juejin is temporarily unavailable; the existing Writing block was kept.")
+
+
+if __name__ == "__main__":
+    main()

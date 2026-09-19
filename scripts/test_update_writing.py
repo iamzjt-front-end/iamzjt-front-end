@@ -1,7 +1,10 @@
 import importlib.util
+import io
+import json
 from pathlib import Path
 import tempfile
 import unittest
+from contextlib import nullcontext
 from unittest.mock import patch
 
 spec = importlib.util.spec_from_file_location("writing", Path(__file__).with_name("update-writing.py"))
@@ -17,6 +20,18 @@ def article(identifier, timestamp, title="Article"):
 
 
 class WritingTests(unittest.TestCase):
+    def test_request_retries_unavailable_api_and_raises_typed_error(self):
+        unavailable = {"err_no": 403, "err_msg": "temporarily busy", "data": None}
+        responses = [nullcontext(io.StringIO(json.dumps(unavailable))) for _ in range(writing.REQUEST_ATTEMPTS)]
+        with patch.object(writing, "urlopen", side_effect=responses), patch.object(writing.time, "sleep") as sleep:
+            with self.assertRaises(writing.JuejinUnavailable):
+                writing.request("/test", {})
+        self.assertEqual(sleep.call_count, writing.REQUEST_ATTEMPTS - 1)
+
+    def test_cli_keeps_existing_data_when_juejin_is_unavailable(self):
+        with patch.object(writing, "update", side_effect=writing.JuejinUnavailable("temporarily busy")):
+            writing.main(["--readme", "README.md"])
+
     def test_latest_not_api_or_pinned_order_and_safe_titles(self):
         articles = [article(str(i), 1700000000 + i) for i in [1, 4, 2, 3]]
         articles[1]["article_info"]["title"] = '<script> & [x](bad)\nnext'
