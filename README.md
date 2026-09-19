@@ -38,7 +38,7 @@
 <!-- No whitespace between paired links: each occupies exactly half the row. -->
 <p>
 <a href="https://github.com/j-tide/llmops"><picture><source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/j-tide/j-tide/snake/project-cards/llmops-mobile.svg?v=selected-four" width="846" /><img src="https://raw.githubusercontent.com/j-tide/j-tide/snake/project-cards/llmops.svg?v=selected-four" width="50%" alt="llmops — 查看项目与 Star 数量" /></picture></a><a href="https://github.com/j-tide/git-workflow"><picture><source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/j-tide/j-tide/snake/project-cards/git-workflow-mobile.svg?v=selected-four" width="846" /><img src="https://raw.githubusercontent.com/j-tide/j-tide/snake/project-cards/git-workflow.svg?v=selected-four" width="50%" alt="git-workflow — 查看项目与 Star 数量" /></picture></a>
-<a href="https://github.com/j-tide/codex-bar"><picture><source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/j-tide/j-tide/snake/project-cards/codex-bar-mobile.svg?v=selected-four" width="846" /><img src="https://raw.githubusercontent.com/j-tide/j-tide/snake/project-cards/codex-bar.svg?v=selected-four" width="50%" alt="codex-bar — 查看项目与 Star 数量" /></picture></a><a href="https://github.com/j-tide/code-review-mpx"><picture><source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/j-tide/j-tide/snake/project-cards/code-review-mpx-mobile.svg?v=selected-four" width="846" /><img src="https://raw.githubusercontent.com/j-tide/j-tide/snake/project-cards/code-review-mpx.svg?v=selected-four" width="50%" alt="code-review-mpx — 查看项目与 Star 数量" /></picture></a>
+<a href="https://github.com/j-tide/codex-bar"><picture><source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/j-tide/j-tide/snake/project-cards/codex-bar-mobile.svg?v=selected-four" width="846" /><img src="https://raw.githubusercontent.com/j-tide/j-tide/snake/project-cards/codex-bar.svg?v=selected-four" width="50%" alt="codex-bar — 查看项目与 Star 数量" /></picture></a><a href="https://github.com/j-tide/zjt-mini-vue3"><picture><source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/j-tide/j-tide/snake/project-cards/zjt-mini-vue3-mobile.svg?v=selected-four" width="846" /><img src="https://raw.githubusercontent.com/j-tide/j-tide/snake/project-cards/zjt-mini-vue3.svg?v=selected-four" width="50%" alt="zjt-mini-vue3 — 查看项目与 Star 数量" /></picture></a>
 </p>
 
 [查看全部项目 ↗](https://github.com/j-tide?tab=repositories)
@@ -54,10 +54,7 @@
   <img src="assets/stack/openai.svg?v=classic" alt="OpenAI SDK" width="117" height="24" />
   <img src="assets/stack/deepseek.svg?v=classic" alt="DeepSeek" width="100" height="24" />
   <img src="assets/stack/mcp.svg" alt="MCP" width="62" height="24" />
-</p>
-
-<p>
-  <strong>RAG &amp; Memory</strong><br>
+  <br>
   <img src="assets/stack/postgresql.svg" alt="PostgreSQL" width="110" height="24" />
   <img src="assets/stack/pgvector.svg" alt="pgvector" width="93" height="24" />
   <img src="assets/stack/weaviate.svg?v=classic" alt="Weaviate" width="95" height="24" />
@@ -72,14 +69,6 @@
   <img src="assets/stack/pydantic.svg?v=classic" alt="Pydantic" width="90" height="24" />
   <img src="assets/stack/sqlalchemy.svg?v=classic" alt="SQLAlchemy" width="117" height="24" />
   <img src="assets/stack/node.svg?v=classic" alt="Node.js" width="83" height="24" />
-</p>
-
-<p>
-  <strong>Evaluation &amp; Reliability</strong><br>
-  <img src="assets/stack/pytest.svg" alt="pytest" width="76" height="24" />
-  <img src="assets/stack/langfuse.svg" alt="Langfuse" width="93" height="24" />
-  <img src="assets/stack/langsmith.svg" alt="LangSmith" width="105" height="24" />
-  <img src="assets/stack/playwright.svg" alt="Playwright" width="102" height="24" />
 </p>
 
 <p>

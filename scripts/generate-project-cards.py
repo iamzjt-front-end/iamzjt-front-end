@@ -15,7 +15,7 @@ PROJECTS = [
     ("llmops", "LLM 应用与工具插件平台，持续构建中。", ["LLM 应用与工具插件平台，", "持续构建中。"], "Python · LLM"),
     ("git-workflow", "AI 提交与代码审查，让 Git 工作流更顺畅。", ["AI 提交与代码审查，", "让 Git 工作流更顺畅。"], "TypeScript · CLI"),
     ("codex-bar", "在菜单栏掌握 Codex 任务、额度与用量。", ["在菜单栏掌握 Codex", "任务、额度与用量。"], "Swift · macOS"),
-    ("code-review-mpx", "面向 Mpx 小程序的代码审查 Skill。", ["面向 Mpx 小程序的", "代码审查 Skill。"], "Agent Skill"),
+    ("zjt-mini-vue3", "手写 Vue 3 核心模块，记录源码学习与 TDD 实践。", ["手写 Vue 3 核心模块，", "记录源码学习与 TDD 实践。"], "TypeScript · Vue 3"),
 ]
 
 
