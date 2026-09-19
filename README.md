@@ -12,19 +12,19 @@
 ## Writing
 
 <!-- writing:start -->
-在掘金写作 · **27 篇文章** · **23,733 次阅读**
+在掘金写作 · **27 篇文章** · **23,789 次阅读**
 
 **最新专栏** · [全部专栏 ↗](https://juejin.cn/user/958429872532632/columns)
 
 - <a href="https://juejin.cn/column/7686674237757063206">从工单开始，做一个 AI Agent</a> · 0 篇 · 文章累计阅读 0
-- <a href="https://juejin.cn/column/7686394441277259822">拆开 DeepSeek Harness</a> · 2 篇 · 文章累计阅读 42
-- <a href="https://juejin.cn/column/7686472562230231050">Agent 系统工程</a> · 2 篇 · 文章累计阅读 40
+- <a href="https://juejin.cn/column/7686394441277259822">拆开 DeepSeek Harness</a> · 2 篇 · 文章累计阅读 62
+- <a href="https://juejin.cn/column/7686472562230231050">Agent 系统工程</a> · 2 篇 · 文章累计阅读 73
 
 **最新文章** · [全部文章 ↗](https://juejin.cn/user/958429872532632/posts?sort=newest)
 
-- <a href="https://juejin.cn/post/7686848033121566758">拆开 DeepSeek Harness 02｜连 Agent Loop 都是插件，谁把这些插件组装成 Agent？</a> · 阅读 1 · 点赞 0
-- <a href="https://juejin.cn/post/7686848033121452070">Agent 系统工程 02｜任务跑到一半挂了，如何恢复到正确状态？</a> · 阅读 9 · 点赞 1
-- <a href="https://juejin.cn/post/7686674237757374502">拆开 DeepSeek Harness 01｜“帮我修个 Bug”发出去后，跑了哪条路？</a> · 阅读 41 · 点赞 1
+- <a href="https://juejin.cn/post/7686848033121566758">拆开 DeepSeek Harness 02｜连 Agent Loop 都是插件，谁把这些插件组装成 Agent？</a> · 阅读 14 · 点赞 0
+- <a href="https://juejin.cn/post/7686848033121452070">Agent 系统工程 02｜任务跑到一半挂了，如何恢复到正确状态？</a> · 阅读 35 · 点赞 1
+- <a href="https://juejin.cn/post/7686674237757374502">拆开 DeepSeek Harness 01｜“帮我修个 Bug”发出去后，跑了哪条路？</a> · 阅读 48 · 点赞 1
 
 **热门文章 · 阅读量 Top 3**
 
